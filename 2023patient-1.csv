@@ -1,0 +1,1001 @@
+Patient_ID,Critical_Illness_Type,Age,Height_cm,Weight_kg,Exercise_Frequency,Type_of_Exercise,Daily_Sleep_Hours,Occupation,Blood_Test_Result,Urine_Test_Result,Xray_Result,Ultrasound_Result,Heart_Rate_bpm,Lung_Oxygen_Saturation_percent,Kidney_Creatinine_mg_dL,Liver_ALT_U_L,Spleen_Platelet_Count_x10^9_L,Intestine_Function_Test,Fast_Food_Intake_times_per_week,Fruit_Intake_times_per_day,Water_Intake_glasses_per_day,Working_Hours_per_day,Diet_Nutritionist_Visit_per_year,Health_Screen_Visit_per_year,BMI
+1,Heart Disease,64,192,68,3-5 times/week,Cardio,5,Sedentary,Normal,Abnormal,Normal,Normal,78,91,0.82,31.5,162,Normal,8,1,9,6,2,1,18.4
+2,None,29,186,57,1-2 times/week,Mixed,9,Active,Normal,Normal,Normal,Normal,87,90,1.37,40.1,229,Normal,3,3,4,4,3,0,16.5
+3,Hypertension,79,182,75,3-5 times/week,None,5,Sedentary,Abnormal,Normal,Normal,Normal,82,93,1.12,54.4,179,Normal,3,0,2,9,3,2,22.6
+4,Hypertension,25,152,79,1-2 times/week,None,9,Sedentary,Normal,Normal,Normal,Normal,99,99,0.66,14.1,308,Normal,6,1,3,10,0,2,34.2
+5,Diabetes,38,168,56,None,Cardio,8,Sedentary,Abnormal,Normal,Normal,Normal,66,98,0.64,49.8,282,Normal,9,3,4,9,1,2,19.8
+6,Diabetes,87,172,116,1-2 times/week,Strength,5,Active,Normal,Normal,Normal,Normal,71,93,0.66,20.9,309,Normal,9,2,8,9,0,2,39.2
+7,Diabetes,89,178,114,Daily,Mixed,6,Very Active,Normal,Normal,Abnormal,Abnormal,73,93,1.45,36.0,165,Normal,8,2,3,11,3,3,36.0
+8,None,42,179,85,Daily,None,9,Very Active,Normal,Normal,Normal,Abnormal,74,96,1.36,33.8,388,Normal,1,4,8,5,2,0,26.5
+9,Hypertension,29,188,74,1-2 times/week,Mixed,5,Active,Normal,Abnormal,Normal,Normal,62,98,1.36,34.3,350,Abnormal,5,3,6,6,0,0,20.9
+10,Hypertension,32,193,86,1-2 times/week,Mixed,7,Sedentary,Abnormal,Normal,Abnormal,Normal,74,96,1.43,42.4,299,Normal,9,2,4,8,2,2,23.1
+11,Diabetes,76,196,50,None,None,9,Active,Normal,Normal,Normal,Normal,83,90,1.05,25.7,341,Normal,9,4,7,9,3,0,13.0
+12,None,43,174,64,Daily,Cardio,9,Active,Normal,Normal,Normal,Normal,67,90,0.82,22.6,396,Abnormal,7,1,5,6,2,2,21.1
+13,None,43,186,86,Daily,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,64,93,0.96,48.8,321,Normal,4,1,5,7,0,1,24.9
+14,Diabetes,64,196,62,3-5 times/week,Mixed,8,Active,Normal,Abnormal,Normal,Normal,63,93,1.25,17.8,189,Normal,4,3,9,5,3,1,16.1
+15,Diabetes,49,157,57,3-5 times/week,None,5,Sedentary,Abnormal,Normal,Normal,Normal,73,90,1.39,15.8,386,Normal,7,3,3,8,1,1,23.1
+16,Diabetes,27,191,54,3-5 times/week,Strength,6,Sedentary,Abnormal,Normal,Normal,Normal,75,95,0.99,7.8,186,Abnormal,0,3,4,9,0,0,14.8
+17,Heart Disease,33,165,109,1-2 times/week,Cardio,6,Sedentary,Normal,Abnormal,Normal,Normal,79,99,1.08,17.3,227,Normal,5,3,5,10,0,2,40.0
+18,Heart Disease,88,157,50,None,Strength,9,Sedentary,Normal,Abnormal,Normal,Normal,83,91,1.44,32.4,165,Normal,9,2,1,9,1,3,20.3
+19,Heart Disease,34,150,85,1-2 times/week,Cardio,9,Active,Normal,Abnormal,Abnormal,Normal,65,94,0.7,33.4,192,Normal,8,2,7,5,3,3,37.8
+20,Diabetes,40,193,84,3-5 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,90,97,1.38,19.5,361,Normal,5,4,8,11,1,1,22.6
+21,Hypertension,43,154,115,3-5 times/week,Mixed,6,Sedentary,Normal,Normal,Normal,Normal,65,92,0.74,10.5,212,Normal,6,2,6,5,0,1,48.5
+22,Diabetes,24,152,112,1-2 times/week,Mixed,6,Sedentary,Abnormal,Normal,Normal,Normal,94,98,1.04,43.5,385,Normal,3,1,9,4,3,0,48.5
+23,Diabetes,31,150,72,Daily,Mixed,8,Active,Abnormal,Normal,Normal,Normal,74,96,0.8,44.1,164,Normal,9,4,3,9,2,3,32.0
+24,Heart Disease,24,153,58,None,None,7,Active,Normal,Normal,Normal,Normal,88,98,1.14,55.9,397,Normal,0,2,2,11,0,0,24.8
+25,Heart Disease,26,189,83,1-2 times/week,Strength,8,Sedentary,Normal,Normal,Normal,Normal,62,90,1.1,51.1,321,Normal,8,3,5,6,2,1,23.2
+26,None,65,184,95,3-5 times/week,None,4,Sedentary,Normal,Normal,Normal,Normal,70,94,0.94,52.4,367,Normal,5,2,9,5,1,2,28.1
+27,Diabetes,89,181,53,3-5 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,62,92,1.38,46.1,286,Normal,2,0,1,5,3,2,16.2
+28,Heart Disease,76,191,79,3-5 times/week,Cardio,5,Very Active,Abnormal,Normal,Normal,Normal,87,93,1.19,37.2,214,Normal,3,4,1,7,1,2,21.7
+29,Hypertension,56,183,52,None,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,69,93,1.25,13.3,376,Normal,9,2,3,7,2,1,15.5
+30,Diabetes,35,192,63,None,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,92,96,0.74,37.5,193,Normal,5,2,3,7,0,0,17.1
+31,Hypertension,76,174,109,3-5 times/week,Mixed,4,Sedentary,Normal,Abnormal,Normal,Abnormal,75,99,1.39,9.7,169,Normal,5,1,5,5,3,2,36.0
+32,Diabetes,34,159,94,1-2 times/week,None,7,Active,Abnormal,Normal,Normal,Abnormal,69,97,0.75,50.4,386,Normal,8,3,4,8,1,3,37.2
+33,Diabetes,31,170,83,None,Strength,9,Active,Normal,Normal,Normal,Normal,92,99,0.8,30.6,268,Normal,3,3,6,11,2,3,28.7
+34,None,48,195,94,3-5 times/week,Cardio,6,Sedentary,Abnormal,Abnormal,Normal,Abnormal,95,94,0.72,41.2,347,Normal,4,1,8,6,2,1,24.7
+35,None,41,188,110,1-2 times/week,None,8,Sedentary,Normal,Normal,Normal,Normal,62,99,1.0,9.6,383,Normal,4,1,8,5,0,3,31.1
+36,None,77,176,65,3-5 times/week,None,5,Sedentary,Abnormal,Abnormal,Abnormal,Normal,64,96,1.4,33.2,351,Normal,2,0,4,10,2,3,21.0
+37,Heart Disease,62,176,115,3-5 times/week,Mixed,4,Active,Normal,Normal,Abnormal,Normal,71,92,0.83,21.8,261,Abnormal,1,4,1,10,3,1,37.1
+38,Diabetes,20,151,89,None,Mixed,6,Very Active,Normal,Normal,Abnormal,Abnormal,72,92,0.94,21.0,272,Normal,7,3,7,4,2,0,39.0
+39,Hypertension,54,190,66,None,Mixed,8,Active,Abnormal,Normal,Normal,Normal,83,92,1.36,26.1,310,Normal,9,1,6,10,0,2,18.3
+40,Heart Disease,60,197,83,3-5 times/week,Mixed,6,Active,Normal,Normal,Normal,Abnormal,91,93,1.16,7.0,229,Normal,8,1,5,11,1,1,21.4
+41,Diabetes,57,162,65,3-5 times/week,None,8,Sedentary,Normal,Abnormal,Normal,Normal,75,95,1.28,29.9,249,Normal,9,4,4,11,3,3,24.8
+42,Heart Disease,72,158,109,3-5 times/week,Cardio,9,Active,Normal,Normal,Abnormal,Normal,91,94,0.79,30.8,155,Normal,8,1,6,9,1,2,43.7
+43,Diabetes,56,185,115,3-5 times/week,Strength,7,Active,Abnormal,Normal,Normal,Normal,96,97,1.24,49.3,232,Normal,4,0,8,8,1,2,33.6
+44,None,32,171,115,3-5 times/week,Cardio,6,Sedentary,Abnormal,Normal,Normal,Normal,95,94,0.8,29.0,180,Normal,8,4,6,8,2,2,39.3
+45,Diabetes,21,191,62,Daily,Cardio,6,Very Active,Normal,Normal,Normal,Normal,80,94,1.49,24.8,215,Normal,3,0,3,6,2,1,17.0
+46,Hypertension,42,175,105,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,71,99,1.1,55.7,167,Normal,1,2,9,8,0,2,34.3
+47,Heart Disease,30,161,80,1-2 times/week,Cardio,7,Sedentary,Abnormal,Normal,Normal,Normal,80,91,1.23,35.0,383,Normal,2,3,3,6,2,0,30.9
+48,Heart Disease,50,166,83,1-2 times/week,Cardio,4,Active,Normal,Normal,Normal,Normal,80,94,0.71,30.2,177,Abnormal,0,1,4,10,2,3,30.1
+49,Heart Disease,33,163,88,None,None,8,Active,Abnormal,Normal,Normal,Normal,65,96,0.83,31.3,217,Normal,4,4,5,8,1,1,33.1
+50,Diabetes,59,163,116,1-2 times/week,Cardio,9,Active,Normal,Normal,Normal,Abnormal,68,91,0.73,46.6,342,Normal,0,0,2,9,3,1,43.7
+51,None,83,183,57,None,Cardio,6,Sedentary,Abnormal,Normal,Normal,Normal,60,95,0.95,23.7,388,Normal,0,3,2,6,2,2,17.0
+52,None,72,169,104,Daily,Cardio,7,Active,Abnormal,Normal,Normal,Normal,71,96,0.86,26.1,383,Abnormal,6,3,6,7,3,3,36.4
+53,None,59,160,76,1-2 times/week,None,4,Active,Abnormal,Abnormal,Abnormal,Normal,73,94,1.26,44.0,263,Normal,1,1,2,7,2,2,29.7
+54,None,51,165,102,1-2 times/week,Strength,8,Sedentary,Normal,Normal,Normal,Normal,65,98,0.7,10.6,357,Abnormal,7,3,1,8,2,2,37.5
+55,Hypertension,47,180,88,1-2 times/week,None,7,Very Active,Normal,Normal,Normal,Abnormal,60,93,1.28,49.4,322,Normal,5,1,8,8,0,1,27.2
+56,None,30,155,114,None,Cardio,9,Active,Normal,Normal,Normal,Abnormal,81,99,0.64,28.1,207,Normal,3,2,1,10,2,0,47.5
+57,Diabetes,30,168,66,None,Strength,9,Sedentary,Normal,Normal,Normal,Normal,93,90,0.78,35.5,324,Normal,8,1,6,6,0,3,23.4
+58,Diabetes,35,186,79,1-2 times/week,Cardio,8,Active,Normal,Normal,Normal,Normal,70,97,1.31,44.1,343,Normal,9,0,1,11,1,3,22.8
+59,Diabetes,49,153,102,None,None,6,Sedentary,Normal,Normal,Normal,Abnormal,62,97,1.27,20.0,329,Normal,7,3,8,10,3,3,43.6
+60,Heart Disease,56,196,62,3-5 times/week,Strength,9,Sedentary,Abnormal,Normal,Normal,Abnormal,65,96,1.03,50.6,313,Normal,9,3,5,11,2,3,16.1
+61,Heart Disease,63,153,70,3-5 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Abnormal,65,97,0.64,55.0,278,Normal,2,3,3,6,0,0,29.9
+62,Diabetes,46,169,68,3-5 times/week,Strength,7,Very Active,Normal,Normal,Normal,Abnormal,79,91,1.15,31.2,188,Normal,2,1,5,9,1,1,23.8
+63,None,79,159,102,3-5 times/week,Strength,4,Sedentary,Normal,Normal,Normal,Normal,80,92,0.97,52.9,364,Normal,3,4,1,5,2,0,40.3
+64,Heart Disease,79,173,68,None,Strength,6,Active,Normal,Normal,Normal,Normal,61,98,0.88,7.1,367,Abnormal,8,1,1,7,0,2,22.7
+65,Diabetes,74,184,106,3-5 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,85,90,1.18,50.8,352,Normal,8,0,4,5,0,1,31.3
+66,Heart Disease,33,175,74,3-5 times/week,None,4,Active,Normal,Abnormal,Normal,Normal,90,97,0.99,22.2,399,Abnormal,4,1,9,5,1,0,24.2
+67,Diabetes,73,186,80,None,None,5,Active,Abnormal,Normal,Normal,Normal,85,97,0.68,22.3,255,Normal,8,3,9,4,2,3,23.1
+68,None,27,187,104,3-5 times/week,Cardio,4,Active,Normal,Normal,Normal,Normal,91,96,1.42,18.2,150,Abnormal,5,2,1,6,2,3,29.7
+69,Diabetes,47,170,72,None,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,69,94,1.3,22.5,224,Normal,7,0,3,4,3,1,24.9
+70,None,42,189,81,3-5 times/week,Cardio,7,Active,Normal,Abnormal,Normal,Normal,82,93,0.65,17.5,237,Normal,7,2,4,11,2,0,22.7
+71,None,22,188,111,Daily,None,5,Very Active,Abnormal,Normal,Normal,Normal,65,99,1.07,51.4,351,Normal,9,0,2,4,0,1,31.4
+72,Diabetes,82,170,59,None,None,7,Active,Normal,Normal,Normal,Normal,82,99,0.68,51.1,291,Normal,6,0,7,11,3,3,20.4
+73,Diabetes,66,159,103,3-5 times/week,Cardio,7,Sedentary,Abnormal,Normal,Normal,Normal,87,99,1.35,12.0,355,Normal,3,3,3,5,3,0,40.7
+74,None,20,187,101,3-5 times/week,None,6,Very Active,Normal,Normal,Normal,Abnormal,89,99,1.15,14.0,348,Normal,3,1,1,4,2,3,28.9
+75,Hypertension,62,195,69,Daily,Strength,6,Sedentary,Abnormal,Normal,Abnormal,Abnormal,73,95,0.76,49.2,300,Abnormal,5,3,1,9,3,1,18.1
+76,Hypertension,31,153,81,1-2 times/week,None,5,Active,Normal,Normal,Normal,Normal,96,90,0.62,26.5,320,Abnormal,8,3,3,6,0,1,34.6
+77,None,47,194,63,3-5 times/week,Cardio,9,Very Active,Normal,Abnormal,Normal,Normal,91,94,0.63,15.3,299,Abnormal,6,3,6,5,0,1,16.7
+78,Diabetes,85,169,99,None,Mixed,6,Sedentary,Normal,Normal,Normal,Normal,93,93,1.06,32.0,209,Abnormal,4,2,4,6,1,1,34.7
+79,Heart Disease,35,166,77,1-2 times/week,None,6,Sedentary,Normal,Normal,Normal,Normal,81,93,1.26,27.4,377,Normal,4,0,1,9,0,1,27.9
+80,Diabetes,79,156,102,None,Cardio,6,Sedentary,Normal,Abnormal,Normal,Normal,90,96,0.71,17.7,304,Abnormal,7,4,7,8,1,2,41.9
+81,None,54,153,73,Daily,None,7,Active,Abnormal,Normal,Normal,Normal,66,98,0.8,42.3,333,Abnormal,5,1,2,4,3,1,31.2
+82,Hypertension,42,178,71,3-5 times/week,Strength,5,Active,Normal,Abnormal,Normal,Abnormal,80,97,0.89,37.9,279,Normal,0,3,5,5,1,1,22.4
+83,Heart Disease,65,163,79,3-5 times/week,Cardio,7,Sedentary,Abnormal,Normal,Normal,Normal,75,97,0.8,11.9,316,Normal,0,0,8,11,2,3,29.7
+84,Diabetes,82,152,112,Daily,Cardio,8,Sedentary,Abnormal,Normal,Normal,Normal,79,94,0.95,52.3,328,Abnormal,8,1,7,7,1,1,48.5
+85,Heart Disease,70,173,53,None,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,78,95,1.1,34.4,259,Normal,7,4,8,6,2,0,17.7
+86,Heart Disease,32,186,108,1-2 times/week,Mixed,8,Sedentary,Abnormal,Normal,Normal,Normal,91,91,1.22,19.3,168,Normal,5,4,6,10,3,1,31.2
+87,Hypertension,66,165,57,None,None,4,Sedentary,Normal,Normal,Normal,Normal,74,92,1.47,17.1,211,Normal,0,3,7,9,1,2,20.9
+88,Hypertension,85,153,61,None,None,4,Very Active,Normal,Abnormal,Normal,Abnormal,64,94,1.44,13.7,220,Normal,1,4,9,4,0,1,26.1
+89,None,29,173,80,None,Mixed,8,Sedentary,Abnormal,Abnormal,Normal,Normal,70,91,1.11,27.8,353,Abnormal,9,4,6,6,2,3,26.7
+90,Heart Disease,76,183,83,1-2 times/week,Cardio,8,Very Active,Normal,Normal,Normal,Normal,74,92,1.26,13.6,344,Normal,2,1,9,9,3,0,24.8
+91,Diabetes,54,179,98,None,Mixed,7,Active,Normal,Normal,Abnormal,Normal,88,93,1.46,27.4,340,Normal,9,1,2,6,0,0,30.6
+92,Hypertension,78,167,106,None,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,63,95,0.68,14.3,260,Normal,2,3,2,8,2,1,38.0
+93,None,60,168,75,None,Mixed,5,Active,Normal,Abnormal,Normal,Normal,95,94,0.61,39.2,282,Normal,1,0,2,10,3,1,26.6
+94,Hypertension,87,180,67,None,Cardio,4,Active,Abnormal,Normal,Normal,Normal,82,99,0.63,45.5,221,Normal,1,3,6,9,3,1,20.7
+95,None,56,168,87,Daily,Strength,4,Sedentary,Normal,Normal,Normal,Normal,74,93,1.11,33.9,227,Normal,5,2,2,6,0,1,30.8
+96,Heart Disease,73,198,99,3-5 times/week,Mixed,9,Sedentary,Normal,Normal,Normal,Normal,62,91,1.29,40.3,338,Abnormal,6,4,3,11,3,3,25.3
+97,Heart Disease,80,195,57,Daily,Cardio,8,Sedentary,Normal,Normal,Normal,Abnormal,91,94,0.93,53.0,249,Normal,3,0,8,10,1,3,15.0
+98,Heart Disease,63,168,90,1-2 times/week,None,6,Sedentary,Normal,Abnormal,Normal,Normal,69,94,1.09,38.3,220,Normal,0,1,8,8,3,0,31.9
+99,Diabetes,28,171,55,None,None,6,Sedentary,Normal,Normal,Abnormal,Normal,99,96,1.06,24.8,156,Abnormal,5,2,4,8,2,1,18.8
+100,Diabetes,79,173,118,3-5 times/week,None,8,Sedentary,Normal,Normal,Normal,Normal,97,90,0.69,29.0,199,Normal,6,2,9,8,2,3,39.4
+101,Diabetes,42,194,93,1-2 times/week,None,5,Sedentary,Normal,Normal,Normal,Normal,81,93,0.89,49.2,195,Normal,3,4,8,4,2,3,24.7
+102,Hypertension,88,161,113,None,Cardio,6,Sedentary,Normal,Normal,Abnormal,Normal,73,94,0.62,13.4,373,Normal,5,1,1,9,1,0,43.6
+103,Heart Disease,69,179,78,None,Cardio,9,Sedentary,Abnormal,Normal,Normal,Normal,76,97,0.7,23.0,221,Normal,8,0,8,6,0,0,24.3
+104,Heart Disease,21,187,77,None,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,80,97,1.33,35.3,399,Normal,3,1,1,6,1,2,22.0
+105,None,76,180,60,None,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,74,90,1.35,40.1,225,Abnormal,9,4,4,10,1,3,18.5
+106,Diabetes,89,185,114,1-2 times/week,Strength,5,Very Active,Abnormal,Normal,Normal,Normal,74,94,1.32,44.4,223,Normal,3,2,6,10,1,0,33.3
+107,Heart Disease,37,168,68,3-5 times/week,None,7,Sedentary,Abnormal,Normal,Normal,Normal,60,99,1.25,22.6,291,Normal,9,4,7,9,3,3,24.1
+108,None,80,197,58,None,None,5,Active,Abnormal,Normal,Normal,Normal,83,90,1.31,14.1,222,Normal,4,3,4,8,0,3,14.9
+109,Diabetes,71,194,76,None,None,6,Sedentary,Normal,Normal,Normal,Normal,71,90,1.2,53.8,251,Normal,2,2,8,6,3,1,20.2
+110,Diabetes,74,185,83,3-5 times/week,Cardio,6,Very Active,Normal,Normal,Normal,Abnormal,69,91,1.2,10.7,243,Normal,9,4,8,6,1,1,24.3
+111,Diabetes,58,179,93,None,None,8,Sedentary,Normal,Normal,Normal,Normal,90,91,1.2,11.7,218,Normal,1,0,9,8,2,1,29.0
+112,Diabetes,20,198,117,1-2 times/week,None,8,Very Active,Normal,Normal,Normal,Normal,70,98,1.06,31.3,214,Normal,8,0,6,7,1,1,29.8
+113,None,23,182,64,3-5 times/week,Cardio,5,Active,Abnormal,Normal,Normal,Normal,75,93,0.93,47.1,342,Abnormal,0,0,4,7,0,3,19.3
+114,None,22,167,100,None,Mixed,9,Sedentary,Normal,Normal,Abnormal,Normal,68,92,1.26,45.0,334,Abnormal,4,3,2,8,2,2,35.9
+115,Hypertension,22,198,62,None,None,4,Very Active,Abnormal,Abnormal,Normal,Normal,73,90,0.87,52.9,211,Normal,4,1,7,10,0,2,15.8
+116,None,71,177,98,1-2 times/week,Strength,7,Active,Normal,Normal,Abnormal,Abnormal,78,91,1.09,13.9,169,Normal,7,0,3,4,1,2,31.3
+117,None,64,196,119,1-2 times/week,Strength,4,Sedentary,Abnormal,Normal,Normal,Normal,90,95,0.99,25.4,390,Normal,5,3,3,10,0,3,31.0
+118,Diabetes,66,160,105,1-2 times/week,Strength,5,Active,Normal,Normal,Normal,Abnormal,68,98,0.85,20.8,352,Normal,5,0,3,10,3,2,41.0
+119,None,26,194,100,3-5 times/week,Mixed,5,Very Active,Normal,Normal,Normal,Normal,95,94,1.48,49.2,303,Normal,5,3,4,11,2,3,26.6
+120,Heart Disease,37,182,86,None,None,4,Sedentary,Normal,Abnormal,Normal,Normal,98,93,0.83,30.9,193,Normal,3,0,2,11,0,0,26.0
+121,None,78,166,66,1-2 times/week,None,7,Sedentary,Abnormal,Normal,Abnormal,Normal,85,94,0.88,8.3,344,Normal,0,1,5,6,2,2,24.0
+122,None,52,155,107,1-2 times/week,Mixed,4,Active,Normal,Abnormal,Normal,Normal,67,98,0.75,41.7,347,Normal,2,4,3,10,2,3,44.5
+123,Heart Disease,67,153,78,None,Cardio,8,Active,Abnormal,Abnormal,Normal,Normal,83,96,1.34,26.0,211,Normal,9,0,5,6,1,0,33.3
+124,Diabetes,79,169,82,3-5 times/week,Cardio,6,Very Active,Abnormal,Abnormal,Normal,Abnormal,67,97,1.13,33.0,256,Normal,5,4,7,7,1,1,28.7
+125,Diabetes,34,197,109,None,Strength,9,Active,Abnormal,Abnormal,Normal,Normal,78,93,1.15,50.8,274,Normal,4,0,9,10,2,0,28.1
+126,Heart Disease,20,196,104,1-2 times/week,Strength,8,Sedentary,Normal,Abnormal,Normal,Abnormal,89,97,1.34,19.6,194,Normal,9,1,2,8,0,0,27.1
+127,None,49,176,59,None,Mixed,6,Very Active,Abnormal,Normal,Normal,Abnormal,81,95,0.91,18.8,160,Normal,0,4,9,9,2,2,19.0
+128,None,30,164,96,1-2 times/week,Mixed,9,Sedentary,Abnormal,Normal,Normal,Abnormal,68,94,0.77,19.9,349,Normal,4,3,6,9,1,1,35.7
+129,Diabetes,85,155,72,1-2 times/week,Strength,9,Sedentary,Normal,Normal,Normal,Normal,63,96,0.78,23.6,370,Normal,1,0,6,10,0,1,30.0
+130,Heart Disease,31,196,70,3-5 times/week,None,9,Active,Normal,Normal,Normal,Normal,96,95,1.26,12.3,351,Abnormal,0,0,3,4,2,2,18.2
+131,Heart Disease,28,163,62,None,Mixed,5,Active,Normal,Abnormal,Normal,Normal,67,92,1.15,41.2,311,Normal,3,3,9,10,1,0,23.3
+132,Diabetes,73,160,82,1-2 times/week,None,9,Sedentary,Normal,Normal,Normal,Normal,60,94,0.79,17.2,237,Normal,5,1,4,8,2,3,32.0
+133,Diabetes,84,188,73,1-2 times/week,None,7,Active,Normal,Abnormal,Normal,Normal,87,98,0.73,52.4,195,Normal,6,2,5,7,2,2,20.7
+134,Heart Disease,46,158,60,3-5 times/week,Mixed,4,Sedentary,Abnormal,Abnormal,Normal,Normal,65,96,0.71,17.6,261,Abnormal,8,0,3,7,2,0,24.0
+135,None,26,175,66,1-2 times/week,None,7,Sedentary,Normal,Normal,Normal,Normal,95,93,1.17,19.5,230,Normal,4,3,5,10,0,3,21.6
+136,Heart Disease,84,165,117,3-5 times/week,None,4,Active,Normal,Normal,Normal,Abnormal,70,96,0.6,21.6,181,Normal,7,2,8,11,1,2,43.0
+137,Heart Disease,42,154,96,3-5 times/week,None,8,Sedentary,Abnormal,Normal,Normal,Abnormal,64,94,0.62,44.7,352,Normal,7,0,8,6,1,2,40.5
+138,Hypertension,59,159,74,3-5 times/week,Mixed,8,Sedentary,Normal,Normal,Normal,Normal,83,91,0.95,28.0,247,Normal,8,4,8,5,3,1,29.3
+139,Heart Disease,26,199,70,1-2 times/week,Cardio,4,Sedentary,Abnormal,Normal,Normal,Normal,77,95,1.22,47.1,365,Abnormal,2,3,6,4,2,1,17.7
+140,None,57,152,61,1-2 times/week,Strength,7,Very Active,Normal,Abnormal,Normal,Normal,79,96,1.23,45.5,396,Normal,2,4,1,4,2,1,26.4
+141,None,42,162,86,3-5 times/week,None,4,Sedentary,Normal,Normal,Normal,Normal,87,97,0.99,52.5,154,Normal,8,1,6,5,3,3,32.8
+142,Diabetes,22,192,91,Daily,Strength,9,Sedentary,Normal,Normal,Normal,Normal,72,95,1.22,44.1,340,Normal,6,2,7,9,2,2,24.7
+143,Heart Disease,28,198,66,3-5 times/week,Strength,5,Active,Normal,Normal,Normal,Normal,64,97,1.07,9.5,178,Normal,3,3,9,9,0,1,16.8
+144,Heart Disease,76,179,97,1-2 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,89,96,1.48,48.0,197,Abnormal,0,0,8,9,3,1,30.3
+145,Diabetes,55,194,77,None,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,60,91,0.75,53.0,389,Abnormal,6,0,8,7,1,2,20.5
+146,Diabetes,89,155,90,1-2 times/week,None,9,Active,Normal,Normal,Normal,Normal,81,95,1.14,55.7,399,Normal,9,2,7,8,2,3,37.5
+147,Hypertension,22,166,96,3-5 times/week,Mixed,9,Sedentary,Abnormal,Normal,Normal,Normal,77,98,1.04,13.1,375,Normal,5,4,2,4,1,1,34.8
+148,Heart Disease,65,194,67,1-2 times/week,Strength,8,Very Active,Normal,Normal,Normal,Abnormal,64,95,0.78,37.1,165,Normal,2,4,1,5,2,0,17.8
+149,Diabetes,35,168,62,1-2 times/week,Mixed,8,Sedentary,Normal,Normal,Normal,Normal,90,93,1.27,16.8,302,Normal,4,3,2,6,3,3,22.0
+150,Diabetes,87,191,62,3-5 times/week,Cardio,9,Sedentary,Normal,Abnormal,Normal,Normal,65,96,0.85,19.9,378,Normal,2,3,6,10,1,1,17.0
+151,None,54,184,80,1-2 times/week,Strength,6,Sedentary,Normal,Normal,Normal,Normal,86,92,0.94,43.5,221,Normal,7,4,2,6,2,0,23.6
+152,Diabetes,77,195,51,3-5 times/week,Strength,5,Sedentary,Abnormal,Normal,Normal,Normal,84,94,0.94,54.9,178,Normal,4,3,4,10,0,1,13.4
+153,Diabetes,65,175,65,1-2 times/week,Strength,5,Active,Abnormal,Normal,Normal,Normal,88,90,0.82,36.1,329,Normal,9,4,3,7,3,3,21.2
+154,Heart Disease,45,154,58,1-2 times/week,Mixed,6,Sedentary,Abnormal,Normal,Normal,Normal,87,99,0.99,48.7,195,Normal,9,2,6,4,2,2,24.5
+155,None,86,178,87,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,75,92,1.03,7.4,302,Normal,5,3,8,8,2,2,27.5
+156,Diabetes,57,186,103,3-5 times/week,None,5,Active,Normal,Normal,Normal,Normal,71,97,1.27,8.8,383,Normal,1,4,6,4,2,3,29.8
+157,Hypertension,62,169,105,None,Strength,4,Active,Normal,Normal,Normal,Normal,79,98,1.29,36.2,172,Normal,7,3,2,10,3,1,36.8
+158,None,79,198,94,None,Strength,9,Sedentary,Abnormal,Normal,Normal,Normal,77,98,0.74,26.1,311,Normal,8,0,5,9,2,3,24.0
+159,Diabetes,75,170,83,Daily,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,93,99,1.13,50.6,344,Normal,2,0,6,6,2,0,28.7
+160,Hypertension,84,159,58,None,None,6,Sedentary,Normal,Normal,Normal,Normal,82,91,1.41,21.8,243,Normal,5,1,9,4,1,1,22.9
+161,Heart Disease,73,154,57,1-2 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,86,93,0.7,28.2,263,Normal,5,4,6,6,1,3,24.0
+162,Hypertension,57,185,56,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Abnormal,76,94,1.03,32.9,394,Normal,1,1,5,5,3,2,16.4
+163,Hypertension,57,155,85,1-2 times/week,Cardio,5,Active,Normal,Normal,Normal,Abnormal,80,92,1.28,20.4,183,Normal,9,4,1,5,3,3,35.4
+164,Heart Disease,50,175,67,3-5 times/week,Strength,9,Very Active,Normal,Abnormal,Normal,Normal,99,90,1.15,51.5,309,Normal,7,3,5,6,0,1,21.9
+165,Diabetes,23,153,52,None,Strength,8,Sedentary,Abnormal,Normal,Normal,Abnormal,90,95,0.69,29.8,266,Abnormal,4,4,5,8,2,3,22.2
+166,None,36,188,77,1-2 times/week,None,4,Sedentary,Abnormal,Normal,Abnormal,Normal,62,99,0.96,27.8,178,Abnormal,7,0,6,11,1,2,21.8
+167,Heart Disease,57,188,119,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Normal,Abnormal,76,91,1.06,48.6,158,Normal,7,3,7,8,1,0,33.7
+168,Diabetes,76,199,93,3-5 times/week,None,8,Sedentary,Normal,Abnormal,Normal,Normal,85,98,1.5,22.3,343,Normal,2,0,4,11,2,3,23.5
+169,Diabetes,76,184,70,None,None,7,Sedentary,Normal,Normal,Normal,Normal,82,90,0.76,47.1,334,Normal,4,3,7,4,2,3,20.7
+170,Hypertension,65,150,77,1-2 times/week,Strength,8,Very Active,Abnormal,Normal,Normal,Abnormal,65,98,1.48,13.0,188,Normal,6,4,5,6,3,0,34.2
+171,Hypertension,58,173,103,None,Mixed,8,Active,Abnormal,Normal,Abnormal,Normal,87,96,0.94,16.0,284,Normal,4,4,6,7,0,3,34.4
+172,Diabetes,30,185,103,None,Cardio,7,Very Active,Abnormal,Normal,Normal,Normal,67,99,0.78,53.6,259,Normal,5,0,4,8,0,2,30.1
+173,Heart Disease,62,155,114,None,Strength,8,Very Active,Abnormal,Normal,Normal,Normal,67,91,0.97,48.3,218,Normal,1,2,8,10,3,0,47.5
+174,Diabetes,70,190,70,None,Mixed,6,Sedentary,Normal,Normal,Normal,Normal,78,95,1.15,26.0,285,Abnormal,7,4,9,8,3,2,19.4
+175,Hypertension,59,195,62,3-5 times/week,Mixed,9,Active,Abnormal,Normal,Normal,Normal,97,97,0.79,38.3,245,Normal,4,2,2,9,1,2,16.3
+176,Diabetes,80,193,106,None,None,5,Sedentary,Normal,Abnormal,Normal,Normal,88,91,0.86,53.2,268,Normal,5,3,4,5,3,2,28.5
+177,Hypertension,44,180,98,Daily,Mixed,8,Sedentary,Normal,Normal,Normal,Abnormal,82,94,1.37,17.4,267,Normal,0,2,8,8,0,1,30.2
+178,Heart Disease,55,169,103,Daily,Cardio,6,Very Active,Abnormal,Normal,Normal,Normal,91,95,1.5,9.9,167,Normal,9,0,8,10,1,0,36.1
+179,None,77,173,59,1-2 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Abnormal,69,92,0.89,33.3,251,Normal,1,1,9,8,0,1,19.7
+180,Diabetes,24,174,102,None,None,5,Very Active,Normal,Normal,Normal,Abnormal,86,91,0.73,14.0,259,Normal,3,1,3,10,2,1,33.7
+181,Heart Disease,22,185,93,1-2 times/week,Cardio,8,Sedentary,Normal,Normal,Abnormal,Normal,60,95,1.31,16.2,231,Normal,8,0,1,11,0,3,27.2
+182,Diabetes,62,170,96,3-5 times/week,None,6,Very Active,Normal,Abnormal,Normal,Normal,98,92,1.14,50.7,326,Normal,5,1,9,9,1,0,33.2
+183,None,75,179,102,1-2 times/week,None,9,Very Active,Abnormal,Normal,Normal,Abnormal,88,91,0.69,7.4,254,Normal,7,0,1,11,0,3,31.8
+184,None,48,173,95,None,Cardio,8,Active,Normal,Abnormal,Normal,Normal,62,90,1.45,47.0,386,Normal,1,4,3,10,1,1,31.7
+185,Diabetes,40,193,62,1-2 times/week,Mixed,7,Active,Normal,Normal,Normal,Normal,96,97,0.67,32.3,165,Normal,9,2,3,8,1,3,16.6
+186,Hypertension,59,191,86,3-5 times/week,Mixed,5,Sedentary,Normal,Normal,Normal,Normal,90,90,1.16,34.4,170,Abnormal,4,1,9,9,3,2,23.6
+187,None,27,179,73,3-5 times/week,Cardio,8,Active,Normal,Abnormal,Normal,Normal,70,94,0.98,39.9,287,Normal,0,4,1,6,0,1,22.8
+188,Hypertension,49,171,51,None,Mixed,5,Very Active,Normal,Normal,Normal,Normal,81,95,1.1,28.1,255,Normal,3,1,7,6,3,2,17.4
+189,Heart Disease,70,177,63,3-5 times/week,Mixed,6,Active,Normal,Normal,Abnormal,Normal,77,92,0.79,12.7,281,Abnormal,9,3,2,5,3,0,20.1
+190,Diabetes,47,156,59,None,Strength,4,Active,Normal,Normal,Normal,Normal,94,96,1.22,12.0,193,Normal,0,0,7,4,0,3,24.2
+191,Diabetes,56,184,84,None,None,8,Active,Abnormal,Normal,Normal,Normal,65,91,1.46,44.0,272,Normal,8,0,1,9,1,1,24.8
+192,None,48,177,74,3-5 times/week,Strength,9,Active,Abnormal,Normal,Abnormal,Abnormal,62,96,1.01,17.8,285,Normal,1,4,8,8,2,0,23.6
+193,None,19,163,52,None,Mixed,8,Active,Normal,Normal,Abnormal,Normal,64,91,1.07,8.4,260,Normal,6,3,2,4,0,2,19.6
+194,Hypertension,29,159,66,None,Strength,5,Active,Normal,Normal,Normal,Abnormal,68,94,0.82,55.0,266,Normal,2,2,3,6,3,3,26.1
+195,Heart Disease,56,165,61,None,Cardio,6,Active,Normal,Normal,Normal,Normal,87,96,1.4,55.0,275,Normal,1,3,8,8,3,3,22.4
+196,Heart Disease,83,165,103,3-5 times/week,Cardio,7,Sedentary,Abnormal,Normal,Normal,Normal,78,92,1.47,25.5,332,Abnormal,3,3,3,4,1,1,37.8
+197,Hypertension,30,180,73,3-5 times/week,Strength,9,Sedentary,Normal,Abnormal,Abnormal,Normal,87,93,1.31,8.3,168,Normal,6,2,1,9,3,3,22.5
+198,None,63,191,78,3-5 times/week,Cardio,6,Sedentary,Abnormal,Normal,Normal,Abnormal,86,90,1.09,42.6,388,Normal,6,2,9,9,2,3,21.4
+199,None,44,174,92,3-5 times/week,None,8,Sedentary,Abnormal,Normal,Normal,Normal,72,92,1.46,47.7,213,Normal,8,3,8,4,3,2,30.4
+200,None,34,162,74,None,Cardio,7,Sedentary,Abnormal,Abnormal,Normal,Normal,97,98,0.74,13.1,189,Normal,2,1,4,10,1,2,28.2
+201,Hypertension,77,155,109,1-2 times/week,Mixed,6,Active,Abnormal,Normal,Normal,Abnormal,80,99,1.03,13.6,381,Normal,6,1,8,9,0,2,45.4
+202,Diabetes,81,193,114,1-2 times/week,Mixed,4,Sedentary,Normal,Abnormal,Normal,Normal,86,94,1.08,47.3,200,Normal,5,3,5,7,1,0,30.6
+203,Diabetes,52,158,77,None,None,9,Sedentary,Normal,Normal,Normal,Normal,65,97,1.04,52.2,286,Normal,9,1,3,6,3,0,30.8
+204,None,87,194,65,1-2 times/week,Mixed,5,Active,Abnormal,Normal,Abnormal,Normal,97,91,1.32,45.7,307,Normal,6,2,1,5,1,3,17.3
+205,Hypertension,47,185,96,Daily,Cardio,6,Very Active,Normal,Normal,Normal,Abnormal,70,92,1.2,16.8,205,Abnormal,6,2,5,5,3,0,28.0
+206,Diabetes,88,192,107,None,Strength,6,Active,Normal,Normal,Normal,Normal,76,96,0.71,27.2,230,Normal,9,1,6,7,1,1,29.0
+207,Diabetes,80,169,76,None,Strength,4,Very Active,Normal,Normal,Normal,Normal,98,99,0.91,36.4,381,Normal,4,2,4,4,0,2,26.6
+208,Hypertension,45,167,102,None,Mixed,8,Active,Normal,Abnormal,Normal,Abnormal,66,93,0.91,14.9,321,Normal,8,0,7,9,3,0,36.6
+209,Diabetes,77,192,91,None,Mixed,9,Sedentary,Abnormal,Abnormal,Normal,Normal,89,98,1.11,17.3,336,Normal,6,2,3,7,2,3,24.7
+210,Diabetes,54,170,108,Daily,Cardio,9,Active,Normal,Abnormal,Normal,Normal,80,96,0.86,20.9,292,Normal,6,3,7,7,2,2,37.4
+211,Heart Disease,39,153,96,1-2 times/week,Mixed,5,Active,Normal,Normal,Normal,Normal,60,90,0.71,32.0,345,Normal,2,4,1,9,2,0,41.0
+212,Hypertension,85,199,83,1-2 times/week,None,6,Sedentary,Abnormal,Normal,Normal,Normal,84,93,1.19,32.0,219,Normal,0,1,7,6,2,2,21.0
+213,Hypertension,37,182,86,3-5 times/week,Strength,7,Sedentary,Abnormal,Normal,Normal,Normal,91,99,1.37,46.9,277,Normal,4,1,1,9,3,0,26.0
+214,Diabetes,85,176,55,None,Strength,6,Active,Normal,Normal,Normal,Abnormal,67,95,1.44,43.9,275,Normal,7,2,1,11,3,3,17.8
+215,Hypertension,81,156,56,1-2 times/week,Strength,5,Sedentary,Normal,Normal,Normal,Normal,64,95,1.48,51.8,210,Normal,4,2,2,9,0,0,23.0
+216,Diabetes,34,155,74,1-2 times/week,None,6,Active,Normal,Normal,Normal,Normal,89,99,1.3,47.8,229,Normal,9,4,2,10,1,0,30.8
+217,Heart Disease,29,164,82,1-2 times/week,Mixed,4,Sedentary,Normal,Normal,Normal,Normal,67,95,0.73,19.4,367,Normal,2,4,4,8,3,0,30.5
+218,Hypertension,39,167,104,Daily,None,6,Active,Normal,Normal,Normal,Normal,78,94,1.37,23.2,270,Normal,8,3,1,4,2,2,37.3
+219,Hypertension,34,181,107,3-5 times/week,None,6,Active,Normal,Normal,Normal,Normal,89,92,0.96,31.5,250,Abnormal,1,0,4,5,3,0,32.7
+220,None,27,160,56,1-2 times/week,Strength,7,Sedentary,Abnormal,Abnormal,Normal,Normal,74,91,1.26,7.7,300,Normal,2,3,2,5,2,0,21.9
+221,Hypertension,82,169,106,3-5 times/week,Cardio,4,Sedentary,Normal,Normal,Abnormal,Normal,95,92,1.08,51.3,226,Normal,3,1,4,7,0,0,37.1
+222,Hypertension,39,173,61,None,Mixed,4,Active,Normal,Normal,Normal,Normal,86,98,1.35,9.2,324,Normal,9,2,4,10,1,2,20.4
+223,Diabetes,67,164,65,None,Cardio,6,Active,Normal,Normal,Normal,Normal,72,92,0.98,22.8,294,Abnormal,0,3,9,7,3,3,24.2
+224,Heart Disease,31,197,92,None,None,9,Very Active,Normal,Abnormal,Normal,Normal,73,92,0.66,34.9,334,Normal,3,2,9,7,1,3,23.7
+225,Diabetes,81,156,56,1-2 times/week,Mixed,7,Sedentary,Abnormal,Normal,Normal,Abnormal,96,90,1.1,32.4,275,Normal,3,2,1,4,2,3,23.0
+226,Diabetes,64,170,100,1-2 times/week,Cardio,6,Active,Normal,Abnormal,Normal,Normal,89,91,0.75,39.1,331,Abnormal,8,3,5,7,2,0,34.6
+227,None,46,191,81,3-5 times/week,None,6,Sedentary,Normal,Abnormal,Abnormal,Normal,98,92,1.47,32.8,368,Normal,7,3,7,7,1,2,22.2
+228,Heart Disease,53,175,57,Daily,Strength,5,Sedentary,Normal,Abnormal,Normal,Abnormal,72,91,1.07,18.2,329,Normal,1,4,4,8,0,3,18.6
+229,None,69,193,94,1-2 times/week,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,75,97,1.1,16.9,171,Normal,6,0,5,4,1,3,25.2
+230,Hypertension,24,163,108,1-2 times/week,Strength,9,Active,Normal,Normal,Normal,Normal,66,95,1.42,51.5,378,Normal,5,4,2,6,1,3,40.6
+231,None,46,186,53,None,Cardio,7,Sedentary,Normal,Normal,Abnormal,Normal,86,96,1.16,19.9,232,Normal,6,0,3,10,3,1,15.3
+232,Heart Disease,28,170,116,None,Mixed,8,Sedentary,Normal,Normal,Normal,Normal,94,90,0.87,20.8,316,Normal,3,3,7,6,3,2,40.1
+233,Hypertension,50,167,78,1-2 times/week,Mixed,5,Active,Abnormal,Normal,Normal,Normal,74,95,0.87,27.2,376,Normal,4,0,7,9,2,1,28.0
+234,Heart Disease,23,154,78,1-2 times/week,Strength,8,Active,Normal,Normal,Normal,Abnormal,87,91,1.05,13.8,290,Normal,5,1,4,8,3,0,32.9
+235,Diabetes,49,152,77,3-5 times/week,None,4,Sedentary,Normal,Normal,Normal,Normal,94,95,1.38,31.9,227,Normal,8,4,1,5,0,3,33.3
+236,Hypertension,68,172,93,None,Mixed,5,Sedentary,Normal,Normal,Abnormal,Normal,66,92,1.32,39.6,389,Normal,1,4,1,9,0,0,31.4
+237,Diabetes,75,175,53,None,Strength,5,Sedentary,Normal,Normal,Normal,Normal,79,96,1.47,45.5,244,Normal,8,4,4,6,0,2,17.3
+238,Diabetes,43,186,58,1-2 times/week,Strength,7,Sedentary,Abnormal,Normal,Normal,Abnormal,91,92,0.66,41.9,258,Normal,9,2,4,4,2,0,16.8
+239,Hypertension,63,173,54,None,Cardio,9,Active,Abnormal,Normal,Abnormal,Normal,97,98,0.84,14.2,343,Normal,0,2,6,5,0,0,18.0
+240,Diabetes,46,198,105,None,Mixed,8,Sedentary,Normal,Normal,Normal,Abnormal,99,92,0.67,29.3,259,Normal,3,3,7,11,0,3,26.8
+241,None,21,168,99,3-5 times/week,Strength,5,Active,Normal,Normal,Normal,Normal,91,96,1.28,8.9,201,Normal,4,3,9,7,3,2,35.1
+242,None,30,174,64,None,None,5,Very Active,Normal,Abnormal,Abnormal,Normal,85,93,0.73,7.9,252,Normal,8,2,9,4,2,0,21.1
+243,None,56,170,81,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,98,97,0.69,28.6,250,Normal,5,4,5,5,1,1,28.0
+244,Heart Disease,32,161,77,None,Mixed,7,Very Active,Normal,Normal,Normal,Normal,79,91,1.11,19.4,291,Normal,3,2,3,6,0,3,29.7
+245,Diabetes,46,190,71,None,None,9,Sedentary,Normal,Normal,Abnormal,Normal,77,97,0.97,40.5,350,Normal,1,0,3,9,3,1,19.7
+246,None,46,182,66,1-2 times/week,Mixed,8,Sedentary,Normal,Normal,Normal,Normal,74,98,1.24,42.5,351,Normal,4,4,6,7,1,3,19.9
+247,Heart Disease,49,199,108,3-5 times/week,Strength,4,Sedentary,Normal,Normal,Normal,Normal,81,97,1.04,50.9,212,Normal,7,2,1,7,0,0,27.3
+248,None,19,153,106,1-2 times/week,Strength,9,Sedentary,Abnormal,Normal,Normal,Normal,81,95,0.98,44.3,348,Abnormal,7,3,7,10,1,3,45.3
+249,None,64,191,75,3-5 times/week,None,4,Sedentary,Abnormal,Normal,Normal,Abnormal,80,99,0.98,9.4,177,Normal,5,2,3,4,1,0,20.6
+250,None,39,156,74,None,None,6,Sedentary,Abnormal,Normal,Normal,Abnormal,61,90,1.38,25.2,387,Normal,0,1,5,9,2,1,30.4
+251,Diabetes,44,171,59,3-5 times/week,Mixed,5,Active,Normal,Normal,Normal,Normal,99,96,0.96,20.4,366,Normal,7,2,7,7,2,0,20.2
+252,Heart Disease,84,182,94,None,None,8,Very Active,Abnormal,Normal,Normal,Normal,77,90,0.9,25.9,195,Normal,3,4,7,5,0,3,28.4
+253,None,73,166,60,3-5 times/week,Strength,9,Active,Normal,Normal,Normal,Normal,82,96,0.9,14.8,398,Normal,1,2,9,10,0,3,21.8
+254,Heart Disease,38,173,102,1-2 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,72,91,0.78,11.8,177,Normal,0,3,1,10,2,3,34.1
+255,Diabetes,64,183,117,Daily,None,8,Active,Abnormal,Normal,Abnormal,Abnormal,68,97,1.37,32.5,151,Normal,6,0,3,8,0,1,34.9
+256,Hypertension,76,177,77,1-2 times/week,None,8,Active,Normal,Normal,Normal,Normal,66,91,0.73,42.3,276,Normal,1,1,9,6,0,2,24.6
+257,None,23,192,114,None,Cardio,8,Active,Normal,Normal,Normal,Abnormal,60,92,1.42,41.4,166,Normal,3,4,8,4,2,1,30.9
+258,Hypertension,36,190,98,None,Mixed,5,Active,Normal,Abnormal,Normal,Abnormal,61,92,0.86,29.1,208,Normal,3,3,2,9,1,0,27.1
+259,Hypertension,74,188,96,3-5 times/week,Cardio,9,Very Active,Normal,Normal,Normal,Abnormal,63,90,1.41,32.6,329,Normal,9,1,8,11,0,0,27.2
+260,Diabetes,86,171,101,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Abnormal,Normal,73,94,1.31,32.3,281,Normal,0,2,8,11,3,1,34.5
+261,Hypertension,20,198,103,3-5 times/week,Cardio,5,Active,Normal,Abnormal,Normal,Normal,91,94,1.12,40.9,226,Normal,1,1,2,8,2,1,26.3
+262,None,18,166,109,None,Cardio,8,Sedentary,Abnormal,Normal,Normal,Normal,95,99,1.2,9.3,359,Normal,0,0,8,11,0,0,39.6
+263,Diabetes,75,183,106,1-2 times/week,Cardio,9,Very Active,Normal,Normal,Normal,Normal,61,94,0.89,41.8,280,Normal,5,1,3,8,0,0,31.7
+264,Heart Disease,55,155,96,None,Mixed,6,Sedentary,Normal,Abnormal,Normal,Normal,99,98,1.12,35.5,264,Normal,2,1,7,4,2,0,40.0
+265,None,32,195,80,Daily,Cardio,4,Sedentary,Normal,Abnormal,Normal,Normal,73,95,0.86,16.7,314,Normal,0,2,9,5,3,2,21.0
+266,Hypertension,51,155,95,3-5 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,79,95,0.96,9.4,246,Normal,7,2,4,9,3,2,39.5
+267,Hypertension,78,183,75,Daily,None,6,Active,Abnormal,Normal,Normal,Normal,84,92,1.29,12.3,254,Normal,3,4,6,6,2,1,22.4
+268,Hypertension,52,150,54,None,Mixed,7,Sedentary,Normal,Abnormal,Normal,Normal,67,94,0.82,32.7,173,Normal,9,2,9,4,3,1,24.0
+269,Heart Disease,81,159,101,3-5 times/week,None,8,Sedentary,Normal,Normal,Normal,Normal,87,99,1.35,44.2,349,Normal,6,1,5,9,0,2,40.0
+270,Diabetes,42,170,103,3-5 times/week,None,6,Very Active,Normal,Abnormal,Normal,Normal,80,96,0.94,23.4,184,Abnormal,9,0,1,8,3,3,35.6
+271,None,41,154,82,1-2 times/week,Strength,8,Very Active,Abnormal,Normal,Normal,Normal,82,92,1.08,25.6,151,Normal,1,2,3,8,0,2,34.6
+272,None,29,151,99,3-5 times/week,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,91,91,1.45,52.8,182,Normal,5,4,9,4,1,1,43.4
+273,None,35,171,87,Daily,Cardio,9,Sedentary,Normal,Abnormal,Normal,Normal,67,94,1.21,17.4,225,Abnormal,5,4,3,9,3,2,29.8
+274,None,32,197,76,3-5 times/week,Cardio,6,Active,Normal,Abnormal,Normal,Normal,90,92,1.18,12.1,235,Normal,6,1,2,8,1,3,19.6
+275,Heart Disease,44,151,64,3-5 times/week,Strength,9,Very Active,Normal,Normal,Normal,Normal,96,94,1.24,23.8,354,Abnormal,0,2,4,4,2,1,28.1
+276,Heart Disease,89,159,110,None,None,5,Active,Normal,Normal,Normal,Normal,75,98,1.43,43.6,287,Normal,0,2,5,10,3,0,43.5
+277,None,77,183,70,None,Mixed,5,Active,Normal,Normal,Normal,Normal,99,99,0.82,37.7,230,Normal,1,4,7,4,0,1,20.9
+278,Hypertension,63,165,95,Daily,Strength,9,Sedentary,Abnormal,Normal,Normal,Normal,86,90,1.15,27.4,211,Normal,1,2,7,6,3,2,34.9
+279,Hypertension,34,197,118,None,Cardio,6,Active,Normal,Normal,Normal,Normal,99,93,0.96,54.3,192,Abnormal,4,1,9,4,2,2,30.4
+280,None,70,188,55,3-5 times/week,Cardio,9,Active,Abnormal,Abnormal,Normal,Normal,77,99,0.61,43.0,346,Abnormal,0,0,8,10,2,3,15.6
+281,None,25,171,87,3-5 times/week,None,9,Active,Normal,Abnormal,Normal,Normal,94,94,0.71,10.0,270,Normal,1,1,2,9,0,2,29.8
+282,Heart Disease,44,161,111,3-5 times/week,Strength,4,Sedentary,Normal,Normal,Normal,Abnormal,74,91,0.89,43.5,208,Normal,5,2,8,9,3,3,42.8
+283,Heart Disease,63,173,111,Daily,Cardio,6,Very Active,Normal,Normal,Normal,Normal,86,91,1.11,8.2,158,Normal,2,1,8,11,1,1,37.1
+284,Diabetes,67,196,95,1-2 times/week,Cardio,4,Active,Normal,Normal,Normal,Abnormal,76,90,1.39,38.9,226,Normal,3,3,5,8,2,2,24.7
+285,Hypertension,88,189,62,1-2 times/week,Cardio,8,Sedentary,Normal,Normal,Abnormal,Normal,99,97,1.31,17.3,337,Normal,0,3,3,11,2,1,17.4
+286,Diabetes,20,187,52,None,Mixed,9,Active,Normal,Normal,Normal,Normal,61,91,1.1,41.1,212,Normal,4,2,9,7,0,0,14.9
+287,Heart Disease,81,159,55,1-2 times/week,Cardio,8,Active,Normal,Normal,Normal,Normal,90,92,0.67,22.2,201,Normal,3,2,7,6,3,0,21.8
+288,Heart Disease,61,184,57,None,Mixed,6,Active,Normal,Normal,Normal,Normal,96,91,0.86,49.8,172,Abnormal,7,0,1,9,1,3,16.8
+289,Diabetes,70,198,93,1-2 times/week,Cardio,9,Active,Normal,Normal,Normal,Normal,93,93,0.93,23.5,179,Abnormal,2,1,8,8,3,2,23.7
+290,Hypertension,41,181,82,3-5 times/week,None,8,Active,Normal,Normal,Normal,Normal,93,90,1.16,37.4,320,Normal,9,0,5,8,3,1,25.0
+291,Diabetes,77,156,99,Daily,None,7,Very Active,Normal,Normal,Abnormal,Normal,62,92,0.66,21.0,396,Normal,0,2,6,6,1,1,40.7
+292,Diabetes,20,170,60,None,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,76,94,1.08,51.9,345,Abnormal,9,2,9,11,0,2,20.8
+293,None,37,169,77,1-2 times/week,None,9,Sedentary,Normal,Normal,Normal,Normal,73,99,1.41,45.3,170,Normal,4,4,8,6,2,1,27.0
+294,Heart Disease,63,175,119,Daily,None,5,Sedentary,Normal,Normal,Normal,Abnormal,73,90,1.23,18.9,192,Normal,0,0,3,11,0,2,38.9
+295,Diabetes,32,153,90,None,Mixed,4,Active,Abnormal,Normal,Abnormal,Normal,97,93,1.32,53.5,350,Normal,4,2,5,8,0,2,38.4
+296,Heart Disease,42,195,65,None,Mixed,8,Active,Abnormal,Normal,Normal,Normal,94,95,1.21,24.5,284,Abnormal,8,3,4,10,3,0,17.1
+297,None,88,171,117,None,Strength,4,Very Active,Normal,Abnormal,Normal,Normal,60,93,0.79,38.9,165,Normal,4,4,1,7,1,2,40.0
+298,Diabetes,34,164,97,1-2 times/week,None,9,Active,Normal,Normal,Normal,Normal,88,96,0.7,43.4,172,Normal,1,1,5,10,2,1,36.1
+299,Hypertension,26,189,105,None,None,5,Active,Normal,Normal,Abnormal,Abnormal,63,96,1.35,8.1,335,Normal,1,4,7,5,3,2,29.4
+300,Diabetes,55,170,113,Daily,None,5,Very Active,Abnormal,Normal,Normal,Normal,92,95,1.23,54.0,236,Abnormal,9,1,1,10,2,0,39.1
+301,Diabetes,65,164,108,1-2 times/week,Strength,8,Sedentary,Normal,Normal,Normal,Normal,76,98,1.12,23.9,180,Normal,8,3,4,8,3,0,40.2
+302,Heart Disease,77,171,111,1-2 times/week,Mixed,9,Active,Normal,Normal,Normal,Normal,87,91,0.77,16.3,270,Normal,4,1,6,6,1,3,38.0
+303,Heart Disease,80,177,60,None,Cardio,7,Sedentary,Abnormal,Abnormal,Normal,Normal,85,99,1.14,48.7,218,Normal,7,0,9,4,2,1,19.2
+304,Hypertension,19,163,67,1-2 times/week,None,7,Active,Normal,Normal,Normal,Normal,67,97,0.63,41.4,283,Abnormal,9,1,8,4,2,2,25.2
+305,Hypertension,89,176,68,3-5 times/week,Cardio,8,Active,Normal,Abnormal,Normal,Abnormal,93,97,0.71,11.3,264,Normal,3,1,2,6,0,1,22.0
+306,None,28,190,104,3-5 times/week,Cardio,9,Active,Normal,Normal,Normal,Normal,77,99,0.88,12.7,342,Normal,1,4,3,10,3,1,28.8
+307,Heart Disease,81,189,75,3-5 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Abnormal,90,93,1.0,42.0,208,Abnormal,3,3,5,6,3,2,21.0
+308,Heart Disease,89,177,55,1-2 times/week,Strength,9,Sedentary,Abnormal,Normal,Normal,Abnormal,86,95,0.71,10.7,389,Normal,3,1,7,5,3,0,17.6
+309,None,38,175,53,Daily,Strength,4,Active,Abnormal,Normal,Normal,Normal,75,95,0.71,51.9,305,Normal,8,0,3,9,0,1,17.3
+310,Diabetes,35,198,78,3-5 times/week,None,8,Active,Normal,Normal,Normal,Normal,69,94,1.25,43.3,295,Abnormal,9,4,7,11,0,3,19.9
+311,Heart Disease,81,151,108,3-5 times/week,None,9,Sedentary,Normal,Normal,Normal,Normal,99,90,1.11,23.4,365,Normal,5,3,5,6,2,1,47.4
+312,Diabetes,55,174,66,None,Mixed,7,Very Active,Normal,Abnormal,Normal,Normal,71,92,1.08,24.8,226,Normal,9,3,6,11,3,0,21.8
+313,Diabetes,49,152,92,None,None,9,Sedentary,Normal,Normal,Normal,Normal,81,96,1.01,31.8,374,Normal,5,2,6,11,3,3,39.8
+314,None,28,157,115,None,None,9,Active,Normal,Normal,Normal,Abnormal,75,97,1.48,24.7,287,Normal,4,0,4,4,2,3,46.7
+315,None,62,193,83,3-5 times/week,None,8,Active,Normal,Abnormal,Normal,Normal,71,91,0.64,45.4,156,Normal,5,4,8,7,2,3,22.3
+316,Hypertension,50,182,57,1-2 times/week,None,4,Active,Normal,Abnormal,Normal,Normal,70,92,0.76,54.8,186,Normal,0,4,9,6,2,3,17.2
+317,Heart Disease,58,191,62,1-2 times/week,Cardio,4,Very Active,Normal,Normal,Normal,Normal,79,93,1.18,35.6,373,Abnormal,4,0,2,5,1,2,17.0
+318,Diabetes,25,184,57,3-5 times/week,Mixed,4,Active,Normal,Abnormal,Normal,Normal,60,94,0.72,28.9,322,Normal,5,3,9,11,1,2,16.8
+319,Diabetes,28,155,114,3-5 times/week,Cardio,4,Active,Normal,Abnormal,Normal,Abnormal,86,92,1.13,17.9,235,Normal,7,1,4,7,2,2,47.5
+320,Diabetes,68,188,92,Daily,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,62,94,1.11,39.0,165,Normal,3,0,6,5,0,3,26.0
+321,Heart Disease,58,172,88,1-2 times/week,Strength,8,Sedentary,Normal,Normal,Normal,Normal,71,97,1.47,40.6,365,Normal,4,4,7,7,0,0,29.7
+322,Hypertension,34,174,108,3-5 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,89,97,1.4,40.6,265,Normal,3,0,4,6,3,1,35.7
+323,Hypertension,63,199,93,None,Mixed,8,Active,Normal,Normal,Normal,Abnormal,68,91,1.45,8.3,267,Normal,6,3,8,11,1,3,23.5
+324,Diabetes,49,192,58,None,Mixed,6,Sedentary,Normal,Normal,Normal,Normal,96,95,0.7,51.1,163,Normal,9,2,8,4,1,0,15.7
+325,None,71,168,86,None,None,4,Sedentary,Normal,Abnormal,Normal,Abnormal,60,93,1.38,23.6,288,Normal,5,2,1,7,2,1,30.5
+326,Hypertension,37,154,85,1-2 times/week,Strength,6,Sedentary,Normal,Normal,Normal,Normal,63,98,0.72,43.5,360,Normal,3,1,8,8,2,3,35.8
+327,Hypertension,50,160,77,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,74,99,1.17,44.2,236,Normal,5,1,3,9,2,1,30.1
+328,Hypertension,57,161,91,3-5 times/week,Mixed,7,Sedentary,Normal,Abnormal,Abnormal,Normal,86,91,1.25,38.9,311,Normal,3,3,5,5,2,2,35.1
+329,Heart Disease,49,159,92,None,Cardio,8,Very Active,Abnormal,Abnormal,Normal,Normal,67,97,0.74,26.3,337,Normal,7,1,8,7,2,2,36.4
+330,Diabetes,19,157,91,3-5 times/week,Mixed,8,Active,Normal,Normal,Normal,Normal,82,90,1.17,36.8,253,Abnormal,2,2,6,11,0,2,36.9
+331,Heart Disease,50,173,115,1-2 times/week,Strength,5,Active,Normal,Normal,Normal,Normal,74,95,0.65,9.0,290,Normal,7,3,4,5,0,0,38.4
+332,None,47,177,104,None,None,5,Active,Normal,Normal,Normal,Normal,86,99,0.86,44.3,316,Normal,1,3,4,4,2,2,33.2
+333,Diabetes,50,190,97,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,90,90,1.43,11.9,193,Normal,5,3,4,5,0,0,26.9
+334,Diabetes,43,185,71,None,Mixed,4,Very Active,Normal,Normal,Normal,Normal,98,91,0.75,26.4,177,Normal,7,0,6,5,2,2,20.7
+335,Diabetes,39,186,76,1-2 times/week,Mixed,6,Sedentary,Normal,Normal,Normal,Normal,67,92,0.66,12.1,317,Normal,0,1,7,8,2,2,22.0
+336,Diabetes,83,170,116,1-2 times/week,None,5,Sedentary,Normal,Abnormal,Normal,Normal,89,98,1.0,48.0,165,Normal,5,4,5,5,1,2,40.1
+337,None,55,157,62,None,Strength,9,Active,Normal,Normal,Abnormal,Normal,77,94,1.37,34.0,199,Normal,8,2,8,7,0,0,25.2
+338,Hypertension,63,158,94,None,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,63,99,0.67,40.9,264,Normal,9,1,7,11,0,1,37.7
+339,Heart Disease,32,196,59,1-2 times/week,None,4,Active,Normal,Normal,Abnormal,Normal,81,99,0.92,40.4,305,Normal,9,2,8,5,1,0,15.4
+340,Diabetes,61,164,58,Daily,Cardio,4,Sedentary,Abnormal,Normal,Normal,Normal,62,91,1.41,48.2,217,Normal,1,1,4,11,0,3,21.6
+341,Heart Disease,66,197,103,1-2 times/week,None,8,Active,Normal,Normal,Normal,Abnormal,74,99,0.71,13.5,241,Abnormal,0,4,8,6,1,3,26.5
+342,Heart Disease,78,195,76,3-5 times/week,Mixed,6,Sedentary,Abnormal,Abnormal,Normal,Normal,94,94,0.88,39.3,270,Normal,1,2,6,5,3,0,20.0
+343,Diabetes,84,189,83,3-5 times/week,Cardio,4,Sedentary,Abnormal,Normal,Normal,Normal,97,94,1.3,35.2,337,Normal,4,4,3,6,0,0,23.2
+344,Heart Disease,23,167,50,Daily,Mixed,5,Active,Normal,Normal,Abnormal,Abnormal,92,90,1.09,8.5,289,Normal,5,2,8,9,2,1,17.9
+345,Heart Disease,26,191,81,3-5 times/week,None,5,Sedentary,Normal,Normal,Normal,Abnormal,73,92,1.35,16.9,165,Abnormal,0,0,7,5,1,0,22.2
+346,Hypertension,23,169,116,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,60,94,0.7,20.1,202,Normal,6,0,5,10,2,2,40.6
+347,Hypertension,49,155,69,3-5 times/week,None,4,Sedentary,Abnormal,Normal,Abnormal,Abnormal,85,98,1.43,10.6,331,Normal,3,2,4,9,2,1,28.7
+348,Diabetes,58,161,84,3-5 times/week,None,9,Active,Abnormal,Normal,Normal,Normal,67,99,1.44,24.4,198,Normal,8,2,1,11,0,0,32.4
+349,Heart Disease,25,151,66,1-2 times/week,None,8,Active,Normal,Normal,Normal,Normal,75,90,0.74,8.3,313,Normal,5,4,3,10,1,0,28.9
+350,Hypertension,89,156,67,1-2 times/week,None,6,Sedentary,Abnormal,Normal,Normal,Normal,97,97,0.63,34.1,211,Normal,8,3,2,5,3,3,27.5
+351,Heart Disease,67,165,94,None,Cardio,9,Very Active,Normal,Normal,Normal,Normal,69,90,1.49,17.4,233,Abnormal,0,2,8,7,2,1,34.5
+352,None,79,152,102,3-5 times/week,None,8,Very Active,Normal,Normal,Normal,Normal,96,98,1.03,21.1,303,Normal,3,1,8,10,2,3,44.1
+353,Hypertension,79,194,117,3-5 times/week,Cardio,5,Active,Abnormal,Normal,Normal,Abnormal,85,95,1.11,51.6,205,Normal,1,1,5,6,3,0,31.1
+354,Diabetes,24,152,114,None,Cardio,9,Active,Abnormal,Normal,Normal,Abnormal,87,90,1.15,31.6,269,Normal,5,1,5,11,1,1,49.3
+355,Diabetes,21,176,50,1-2 times/week,Mixed,8,Sedentary,Normal,Normal,Normal,Normal,71,97,1.31,20.2,239,Normal,3,0,4,9,0,2,16.1
+356,Hypertension,23,199,107,1-2 times/week,Mixed,5,Active,Abnormal,Normal,Normal,Normal,79,94,1.33,36.3,299,Normal,8,4,1,9,2,0,27.0
+357,Diabetes,75,192,75,None,Cardio,5,Sedentary,Abnormal,Normal,Abnormal,Normal,73,96,0.77,16.9,269,Normal,2,0,1,6,0,0,20.3
+358,Hypertension,39,189,69,Daily,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,94,96,0.81,10.6,222,Normal,0,1,6,8,1,3,19.3
+359,None,43,187,59,None,None,5,Very Active,Abnormal,Normal,Normal,Normal,88,96,1.39,8.0,218,Normal,0,2,4,5,3,2,16.9
+360,Hypertension,20,182,108,None,Mixed,5,Active,Abnormal,Abnormal,Normal,Normal,71,95,1.34,53.6,358,Normal,8,1,4,5,0,0,32.6
+361,Heart Disease,58,177,90,1-2 times/week,None,7,Sedentary,Normal,Normal,Normal,Abnormal,77,97,1.16,42.5,326,Abnormal,8,2,3,7,1,3,28.7
+362,Hypertension,77,150,54,3-5 times/week,None,9,Sedentary,Abnormal,Normal,Normal,Normal,61,98,1.5,46.2,247,Normal,4,4,9,8,0,3,24.0
+363,Heart Disease,31,157,114,None,None,8,Active,Normal,Normal,Normal,Normal,61,91,1.26,55.1,151,Normal,1,3,3,8,0,0,46.2
+364,Heart Disease,29,186,66,3-5 times/week,Cardio,7,Sedentary,Abnormal,Abnormal,Abnormal,Normal,76,96,0.79,52.6,202,Normal,8,2,8,10,2,1,19.1
+365,None,29,181,71,1-2 times/week,None,7,Sedentary,Normal,Normal,Normal,Normal,69,91,1.36,43.1,268,Abnormal,7,0,2,11,0,0,21.7
+366,Heart Disease,30,197,90,None,Strength,4,Sedentary,Normal,Normal,Normal,Abnormal,77,95,0.97,41.0,156,Normal,9,1,4,7,2,2,23.2
+367,None,42,192,117,None,None,4,Sedentary,Normal,Abnormal,Normal,Normal,81,91,0.63,23.5,377,Normal,9,1,1,9,1,0,31.7
+368,None,62,186,118,1-2 times/week,Strength,4,Active,Normal,Abnormal,Normal,Normal,78,99,0.89,12.1,354,Normal,5,1,5,6,1,1,34.1
+369,Diabetes,36,153,60,None,None,6,Sedentary,Normal,Normal,Normal,Normal,60,95,1.29,35.1,297,Normal,6,2,2,9,2,3,25.6
+370,Diabetes,72,179,105,Daily,None,4,Active,Abnormal,Normal,Normal,Normal,83,91,1.46,35.2,371,Abnormal,5,4,1,4,3,2,32.8
+371,Diabetes,62,155,100,3-5 times/week,Mixed,8,Sedentary,Abnormal,Abnormal,Normal,Normal,95,90,0.85,53.7,307,Abnormal,4,2,1,7,0,2,41.6
+372,Diabetes,25,195,70,Daily,None,7,Active,Normal,Normal,Abnormal,Normal,84,96,0.82,28.7,224,Abnormal,3,0,2,6,1,2,18.4
+373,Diabetes,70,168,75,None,Mixed,8,Very Active,Abnormal,Normal,Normal,Normal,95,92,1.11,40.8,244,Normal,6,1,5,9,1,2,26.6
+374,Hypertension,72,181,68,Daily,Cardio,9,Active,Abnormal,Normal,Normal,Normal,90,93,1.33,35.2,399,Normal,3,2,9,9,3,1,20.8
+375,Diabetes,49,158,109,1-2 times/week,None,4,Very Active,Normal,Normal,Normal,Normal,90,95,1.27,15.7,344,Normal,9,1,6,8,1,1,43.7
+376,Heart Disease,68,161,96,1-2 times/week,Mixed,6,Very Active,Normal,Normal,Normal,Normal,61,94,1.1,36.0,336,Normal,9,0,4,7,2,1,37.0
+377,None,61,160,75,None,None,9,Sedentary,Abnormal,Normal,Normal,Normal,78,93,1.17,33.5,343,Normal,9,3,3,4,3,1,29.3
+378,Diabetes,87,195,89,None,Mixed,6,Active,Normal,Abnormal,Normal,Normal,71,98,0.82,31.2,389,Normal,8,3,8,5,1,3,23.4
+379,None,35,165,54,3-5 times/week,None,9,Very Active,Abnormal,Normal,Normal,Abnormal,69,95,0.99,32.2,152,Abnormal,4,3,3,7,3,0,19.8
+380,Diabetes,39,150,70,1-2 times/week,Mixed,7,Sedentary,Abnormal,Normal,Normal,Normal,90,95,0.83,15.0,333,Abnormal,7,1,1,11,3,1,31.1
+381,Diabetes,54,194,53,None,None,8,Sedentary,Abnormal,Normal,Normal,Normal,81,91,1.4,29.7,228,Normal,5,2,4,4,1,0,14.1
+382,Hypertension,73,170,72,3-5 times/week,Cardio,5,Very Active,Normal,Abnormal,Normal,Normal,82,95,0.7,36.7,166,Normal,3,1,5,11,1,2,24.9
+383,Hypertension,76,179,64,None,Strength,8,Active,Normal,Normal,Normal,Normal,82,96,1.21,31.0,261,Normal,2,4,5,4,1,3,20.0
+384,None,20,162,57,1-2 times/week,Mixed,4,Sedentary,Normal,Normal,Normal,Normal,74,97,0.83,30.9,201,Normal,5,2,5,11,3,3,21.7
+385,Hypertension,45,183,90,1-2 times/week,Mixed,5,Sedentary,Normal,Normal,Normal,Abnormal,85,97,1.03,10.8,156,Normal,0,0,8,7,2,0,26.9
+386,None,52,153,68,3-5 times/week,Mixed,6,Active,Normal,Normal,Normal,Normal,62,98,0.87,16.3,261,Normal,1,3,8,6,2,0,29.0
+387,Diabetes,78,177,95,3-5 times/week,Mixed,7,Active,Normal,Abnormal,Normal,Normal,82,99,0.89,22.7,282,Abnormal,6,2,4,7,0,0,30.3
+388,Diabetes,71,187,77,1-2 times/week,None,7,Active,Normal,Normal,Normal,Normal,79,92,0.83,27.5,375,Normal,3,2,9,9,1,3,22.0
+389,None,80,180,117,1-2 times/week,None,6,Active,Abnormal,Normal,Normal,Abnormal,99,99,1.28,36.1,374,Normal,4,3,1,10,2,1,36.1
+390,None,24,176,64,1-2 times/week,None,4,Active,Normal,Normal,Normal,Normal,98,96,0.93,49.3,203,Normal,9,0,5,8,0,3,20.7
+391,None,66,154,86,3-5 times/week,Cardio,6,Active,Normal,Normal,Normal,Normal,67,96,1.25,14.8,210,Normal,0,1,5,9,0,1,36.3
+392,Heart Disease,48,174,50,1-2 times/week,Cardio,9,Active,Normal,Normal,Normal,Abnormal,77,90,1.01,7.7,258,Normal,1,1,5,4,1,2,16.5
+393,Heart Disease,75,152,116,None,Cardio,4,Active,Normal,Normal,Normal,Normal,65,97,1.09,29.0,165,Normal,3,2,8,4,0,1,50.2
+394,None,78,182,73,None,None,5,Active,Normal,Normal,Normal,Normal,86,93,1.09,28.2,378,Abnormal,7,3,9,5,2,0,22.0
+395,Heart Disease,41,153,76,1-2 times/week,Strength,6,Sedentary,Abnormal,Normal,Normal,Normal,95,94,1.48,34.0,344,Normal,9,4,3,4,0,1,32.5
+396,None,37,174,89,1-2 times/week,None,4,Sedentary,Normal,Normal,Normal,Normal,74,95,0.93,47.8,336,Normal,3,0,9,10,0,1,29.4
+397,None,54,169,112,3-5 times/week,Cardio,5,Very Active,Abnormal,Normal,Normal,Normal,96,92,0.79,46.3,196,Normal,2,1,8,5,2,3,39.2
+398,Heart Disease,21,183,110,None,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,64,94,1.42,11.9,197,Normal,2,0,3,4,0,0,32.8
+399,None,37,175,85,1-2 times/week,Strength,7,Sedentary,Abnormal,Normal,Normal,Normal,98,99,0.76,52.8,384,Normal,4,0,2,4,0,2,27.8
+400,None,77,154,73,3-5 times/week,Strength,6,Sedentary,Abnormal,Normal,Normal,Abnormal,68,94,1.35,12.4,270,Normal,2,0,4,7,3,1,30.8
+401,Diabetes,41,184,73,3-5 times/week,Strength,8,Active,Abnormal,Normal,Normal,Abnormal,66,90,0.74,38.1,392,Normal,7,3,2,7,0,2,21.6
+402,None,67,177,53,1-2 times/week,None,6,Sedentary,Abnormal,Abnormal,Normal,Normal,79,92,1.19,39.9,213,Normal,4,3,4,8,0,0,16.9
+403,Heart Disease,66,178,116,1-2 times/week,Cardio,8,Sedentary,Abnormal,Normal,Normal,Normal,69,92,0.74,40.3,199,Normal,6,3,5,9,3,1,36.6
+404,None,68,158,83,1-2 times/week,None,5,Sedentary,Abnormal,Normal,Normal,Normal,85,90,1.43,20.0,362,Normal,7,2,2,6,3,3,33.2
+405,Heart Disease,53,187,106,Daily,Cardio,6,Active,Normal,Abnormal,Normal,Normal,63,96,1.11,23.2,190,Abnormal,4,3,8,8,3,2,30.3
+406,None,83,199,98,None,Cardio,5,Sedentary,Normal,Abnormal,Normal,Normal,97,90,0.9,33.9,349,Normal,7,2,1,4,1,3,24.7
+407,Heart Disease,51,155,102,Daily,None,5,Sedentary,Normal,Abnormal,Normal,Normal,83,96,0.73,16.8,171,Normal,2,1,3,8,1,2,42.5
+408,Diabetes,53,168,72,3-5 times/week,None,4,Sedentary,Normal,Normal,Normal,Normal,73,93,0.93,8.0,264,Normal,6,1,7,7,2,0,25.5
+409,None,23,193,118,1-2 times/week,Mixed,5,Very Active,Normal,Normal,Normal,Normal,60,98,1.23,34.5,331,Abnormal,7,1,1,9,0,1,31.7
+410,Diabetes,56,160,102,None,Mixed,5,Sedentary,Normal,Normal,Normal,Normal,76,96,0.95,29.8,154,Normal,6,1,2,4,2,2,39.8
+411,Heart Disease,59,151,111,1-2 times/week,Cardio,6,Sedentary,Abnormal,Normal,Normal,Normal,83,94,0.82,39.2,294,Normal,1,1,3,11,1,3,48.7
+412,None,75,196,90,1-2 times/week,None,6,Active,Abnormal,Normal,Normal,Normal,86,96,1.12,14.2,250,Normal,7,3,2,4,0,2,23.4
+413,None,29,193,106,None,None,7,Very Active,Normal,Abnormal,Normal,Normal,66,98,0.98,48.2,227,Abnormal,5,4,2,8,0,2,28.5
+414,Hypertension,20,193,109,3-5 times/week,Cardio,4,Active,Normal,Normal,Normal,Normal,68,99,0.75,14.2,380,Normal,9,3,6,9,3,2,29.3
+415,Hypertension,35,158,103,Daily,Mixed,5,Very Active,Abnormal,Normal,Abnormal,Normal,94,95,0.74,50.7,190,Normal,2,4,7,11,1,2,41.3
+416,Heart Disease,57,170,119,1-2 times/week,None,4,Active,Normal,Abnormal,Abnormal,Normal,71,90,1.24,29.0,241,Abnormal,3,3,6,10,0,2,41.2
+417,Diabetes,38,173,106,3-5 times/week,Strength,8,Sedentary,Abnormal,Normal,Normal,Normal,80,95,1.48,33.9,372,Normal,6,1,6,5,3,2,35.4
+418,Heart Disease,32,183,59,None,None,5,Active,Normal,Normal,Abnormal,Normal,62,90,0.81,50.9,358,Normal,2,0,9,10,0,3,17.6
+419,Hypertension,43,171,89,1-2 times/week,Mixed,4,Sedentary,Normal,Normal,Normal,Normal,74,93,1.3,21.7,312,Normal,0,4,8,11,1,2,30.4
+420,None,25,152,56,None,Cardio,7,Active,Normal,Normal,Normal,Abnormal,80,97,0.68,15.9,317,Normal,5,0,8,11,2,2,24.2
+421,None,59,161,87,3-5 times/week,Strength,7,Sedentary,Abnormal,Normal,Normal,Normal,69,94,0.94,28.8,171,Normal,2,1,6,6,2,2,33.6
+422,None,61,177,110,Daily,Cardio,5,Sedentary,Normal,Abnormal,Normal,Normal,92,94,1.06,19.0,386,Abnormal,9,4,5,11,0,1,35.1
+423,Diabetes,31,179,52,3-5 times/week,Strength,8,Very Active,Normal,Abnormal,Normal,Normal,65,99,0.84,32.9,325,Normal,5,0,9,9,3,0,16.2
+424,Heart Disease,19,175,100,None,None,7,Sedentary,Normal,Abnormal,Abnormal,Abnormal,61,97,1.08,20.5,202,Normal,9,3,2,8,3,0,32.7
+425,Diabetes,54,197,96,1-2 times/week,None,7,Very Active,Normal,Normal,Normal,Normal,88,97,1.39,49.4,242,Abnormal,2,1,7,10,3,0,24.7
+426,Heart Disease,86,170,117,1-2 times/week,Mixed,8,Sedentary,Abnormal,Abnormal,Normal,Normal,99,90,1.45,36.8,159,Abnormal,5,3,6,8,1,3,40.5
+427,Heart Disease,55,177,87,1-2 times/week,Mixed,4,Sedentary,Abnormal,Normal,Normal,Normal,92,94,0.69,7.0,295,Normal,3,3,7,6,2,3,27.8
+428,None,58,175,85,3-5 times/week,Mixed,7,Very Active,Normal,Normal,Normal,Normal,63,94,0.84,46.5,376,Normal,3,1,4,4,2,3,27.8
+429,Heart Disease,79,182,90,3-5 times/week,Strength,6,Active,Normal,Normal,Normal,Normal,63,97,1.48,23.2,385,Normal,9,4,9,4,0,2,27.2
+430,Diabetes,77,170,118,3-5 times/week,Mixed,9,Active,Normal,Normal,Normal,Normal,88,90,0.84,22.7,357,Normal,9,2,7,5,2,0,40.8
+431,Diabetes,31,184,62,1-2 times/week,None,9,Sedentary,Abnormal,Normal,Normal,Abnormal,96,96,1.22,25.8,391,Normal,1,2,2,8,3,2,18.3
+432,None,19,183,107,None,Cardio,7,Active,Abnormal,Normal,Normal,Normal,79,96,0.83,37.9,198,Normal,3,1,4,6,1,1,32.0
+433,Hypertension,87,190,99,None,Cardio,4,Active,Normal,Normal,Normal,Abnormal,82,98,0.92,28.7,220,Normal,3,2,5,8,3,0,27.4
+434,Diabetes,34,196,79,1-2 times/week,Strength,4,Active,Abnormal,Normal,Normal,Normal,77,91,0.77,37.8,307,Normal,6,0,2,7,3,1,20.6
+435,Diabetes,45,167,111,1-2 times/week,Cardio,5,Sedentary,Normal,Normal,Abnormal,Abnormal,84,92,1.37,14.2,168,Normal,4,4,8,8,2,1,39.8
+436,Hypertension,83,160,74,3-5 times/week,None,6,Very Active,Abnormal,Normal,Normal,Normal,60,93,1.39,54.5,204,Normal,7,3,1,8,1,2,28.9
+437,Diabetes,52,172,76,3-5 times/week,Cardio,4,Active,Abnormal,Normal,Normal,Normal,74,90,0.87,42.8,337,Normal,6,3,3,7,1,0,25.7
+438,None,22,197,100,None,Mixed,8,Very Active,Abnormal,Normal,Normal,Abnormal,93,96,1.34,19.3,364,Normal,9,1,1,7,3,1,25.8
+439,Hypertension,82,171,106,1-2 times/week,Cardio,6,Active,Abnormal,Normal,Normal,Abnormal,79,99,0.92,42.5,349,Normal,8,3,5,10,0,0,36.3
+440,Diabetes,57,166,96,None,None,9,Active,Normal,Normal,Abnormal,Normal,96,92,0.69,35.2,358,Normal,7,0,8,11,2,1,34.8
+441,Diabetes,73,154,88,None,None,6,Sedentary,Abnormal,Normal,Normal,Normal,86,92,1.28,12.4,170,Normal,8,0,7,11,0,1,37.1
+442,None,53,193,65,3-5 times/week,None,8,Sedentary,Normal,Normal,Normal,Abnormal,81,92,1.14,15.7,175,Normal,0,1,9,6,3,2,17.5
+443,Heart Disease,62,160,71,None,None,7,Very Active,Normal,Abnormal,Normal,Normal,64,97,0.85,9.0,398,Normal,9,3,2,10,2,0,27.7
+444,Heart Disease,40,179,103,1-2 times/week,Strength,8,Sedentary,Normal,Normal,Abnormal,Normal,93,98,0.83,46.7,177,Normal,2,2,8,4,0,2,32.1
+445,None,64,164,70,None,Strength,8,Sedentary,Abnormal,Normal,Normal,Abnormal,98,99,1.48,34.0,316,Normal,4,2,8,5,0,2,26.0
+446,None,48,176,65,3-5 times/week,Strength,7,Sedentary,Normal,Normal,Normal,Normal,62,91,1.38,22.5,310,Normal,8,4,6,10,0,2,21.0
+447,None,28,184,108,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,76,99,1.33,13.2,189,Normal,7,1,3,7,2,2,31.9
+448,None,27,182,80,None,Mixed,7,Very Active,Normal,Normal,Normal,Normal,83,99,0.72,30.7,360,Normal,9,4,2,4,0,2,24.2
+449,Heart Disease,84,169,91,1-2 times/week,None,7,Very Active,Normal,Normal,Normal,Normal,83,90,1.28,32.7,178,Normal,6,2,8,11,1,1,31.9
+450,Diabetes,31,165,81,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,62,98,0.79,41.4,169,Normal,1,2,6,6,3,0,29.8
+451,None,27,183,108,Daily,Mixed,8,Sedentary,Abnormal,Abnormal,Normal,Abnormal,66,95,1.48,54.5,169,Abnormal,5,2,4,9,2,0,32.2
+452,Hypertension,18,151,83,None,None,5,Active,Abnormal,Normal,Normal,Normal,84,98,0.65,28.3,223,Normal,3,4,5,8,1,2,36.4
+453,Heart Disease,22,184,58,3-5 times/week,None,5,Active,Normal,Normal,Normal,Abnormal,62,95,0.92,26.9,289,Normal,4,1,5,6,0,0,17.1
+454,None,37,189,60,Daily,Mixed,4,Very Active,Abnormal,Abnormal,Normal,Abnormal,74,91,0.99,25.1,269,Normal,4,0,9,6,3,1,16.8
+455,Diabetes,25,177,59,Daily,Cardio,5,Active,Abnormal,Normal,Normal,Normal,88,90,1.34,47.5,246,Abnormal,3,0,9,7,0,2,18.8
+456,Heart Disease,60,196,66,3-5 times/week,Strength,9,Sedentary,Normal,Abnormal,Normal,Normal,88,97,1.29,14.7,269,Abnormal,3,2,8,5,1,3,17.2
+457,Diabetes,18,188,117,3-5 times/week,None,5,Active,Abnormal,Normal,Normal,Normal,69,92,0.94,23.8,174,Normal,3,1,8,10,0,3,33.1
+458,Heart Disease,74,155,97,1-2 times/week,Strength,8,Very Active,Abnormal,Normal,Normal,Normal,91,90,1.11,42.5,302,Normal,1,1,2,7,2,1,40.4
+459,Diabetes,81,158,101,3-5 times/week,Cardio,7,Active,Normal,Abnormal,Normal,Normal,82,97,1.35,7.8,394,Normal,0,3,3,8,1,1,40.5
+460,Diabetes,45,169,74,1-2 times/week,None,7,Active,Normal,Abnormal,Normal,Normal,98,90,0.62,21.2,153,Normal,1,3,8,7,2,3,25.9
+461,Diabetes,54,150,70,3-5 times/week,Strength,8,Sedentary,Abnormal,Abnormal,Normal,Normal,68,97,1.32,38.4,153,Normal,6,4,5,8,3,2,31.1
+462,Hypertension,64,157,114,1-2 times/week,None,9,Active,Normal,Normal,Normal,Normal,96,90,1.45,16.1,286,Normal,0,3,7,7,2,1,46.2
+463,Hypertension,54,172,112,3-5 times/week,Cardio,5,Active,Normal,Abnormal,Normal,Normal,99,98,0.63,21.8,292,Abnormal,5,4,8,9,2,3,37.9
+464,Hypertension,66,152,100,3-5 times/week,None,8,Sedentary,Normal,Abnormal,Normal,Normal,73,98,0.64,30.8,397,Normal,3,0,6,11,0,2,43.3
+465,None,61,153,85,None,None,4,Sedentary,Normal,Normal,Normal,Normal,63,98,0.91,27.7,175,Normal,1,2,5,5,0,1,36.3
+466,Heart Disease,73,174,115,3-5 times/week,None,7,Sedentary,Abnormal,Normal,Normal,Normal,79,92,0.68,12.2,228,Normal,2,1,8,9,1,0,38.0
+467,Diabetes,45,196,64,1-2 times/week,None,6,Sedentary,Normal,Normal,Abnormal,Normal,87,93,1.03,53.0,239,Normal,6,0,1,4,3,0,16.7
+468,None,23,187,88,3-5 times/week,Mixed,4,Sedentary,Normal,Abnormal,Normal,Normal,73,94,1.26,9.2,369,Normal,5,0,1,11,1,0,25.2
+469,Diabetes,78,164,119,1-2 times/week,None,9,Sedentary,Normal,Normal,Normal,Normal,93,95,1.11,43.7,220,Normal,5,4,1,11,3,2,44.2
+470,None,37,170,50,1-2 times/week,Cardio,4,Active,Normal,Normal,Normal,Normal,72,98,0.78,10.5,309,Normal,7,2,3,11,3,1,17.3
+471,Diabetes,19,184,72,Daily,None,8,Sedentary,Normal,Normal,Normal,Normal,90,93,1.19,29.9,225,Normal,7,4,6,5,2,3,21.3
+472,None,54,195,88,None,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,92,95,1.22,15.6,248,Abnormal,5,0,6,10,0,1,23.1
+473,Diabetes,37,163,106,3-5 times/week,Mixed,7,Very Active,Abnormal,Normal,Abnormal,Normal,98,90,1.44,13.9,329,Normal,0,1,5,7,3,0,39.9
+474,None,43,185,83,1-2 times/week,None,9,Active,Normal,Normal,Normal,Normal,87,91,0.73,13.2,276,Normal,9,3,7,11,0,0,24.3
+475,Heart Disease,46,161,90,1-2 times/week,Mixed,9,Active,Normal,Abnormal,Normal,Normal,84,97,1.22,29.2,181,Normal,6,4,5,6,3,2,34.7
+476,None,18,166,62,1-2 times/week,None,6,Sedentary,Normal,Normal,Normal,Abnormal,91,93,1.42,32.3,158,Abnormal,7,0,2,4,0,3,22.5
+477,Diabetes,52,188,119,1-2 times/week,Strength,4,Active,Normal,Normal,Normal,Normal,68,99,1.05,13.5,227,Normal,4,3,4,11,1,2,33.7
+478,Hypertension,87,158,55,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Normal,Abnormal,87,96,0.93,55.0,162,Normal,3,3,1,6,0,3,22.0
+479,None,76,184,101,None,Mixed,5,Active,Normal,Normal,Normal,Normal,90,93,0.75,19.6,333,Normal,6,0,7,11,2,1,29.8
+480,Heart Disease,86,162,52,None,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,76,98,1.38,29.5,273,Normal,5,2,4,9,3,2,19.8
+481,Hypertension,50,164,112,None,Cardio,6,Active,Normal,Normal,Normal,Normal,82,98,0.95,17.6,321,Abnormal,5,0,4,10,2,2,41.6
+482,Hypertension,68,167,98,Daily,None,7,Sedentary,Abnormal,Normal,Normal,Normal,72,93,1.43,31.2,374,Normal,2,1,4,5,3,2,35.1
+483,Heart Disease,29,182,96,Daily,None,5,Active,Normal,Abnormal,Normal,Normal,69,97,1.36,44.0,245,Normal,9,3,3,10,2,0,29.0
+484,Hypertension,37,155,104,1-2 times/week,Mixed,6,Active,Abnormal,Normal,Abnormal,Normal,75,95,0.94,32.5,232,Normal,3,1,8,4,3,0,43.3
+485,Hypertension,70,176,113,3-5 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,65,90,1.12,21.0,307,Normal,4,4,4,9,0,3,36.5
+486,None,60,172,114,1-2 times/week,Cardio,6,Sedentary,Abnormal,Normal,Normal,Normal,70,96,0.62,19.2,293,Normal,8,3,8,7,3,1,38.5
+487,Diabetes,67,176,116,3-5 times/week,Strength,6,Active,Normal,Normal,Normal,Normal,62,90,0.84,44.2,289,Normal,7,2,9,6,2,2,37.4
+488,Diabetes,46,183,64,3-5 times/week,Cardio,8,Very Active,Normal,Abnormal,Normal,Normal,87,92,1.24,12.8,351,Normal,2,0,1,7,2,0,19.1
+489,None,74,195,81,Daily,Mixed,5,Active,Normal,Normal,Normal,Normal,74,97,1.21,25.1,343,Normal,5,4,4,8,3,2,21.3
+490,None,56,187,117,1-2 times/week,Strength,7,Sedentary,Abnormal,Normal,Normal,Normal,72,98,0.92,14.4,167,Normal,9,1,6,10,3,3,33.5
+491,Heart Disease,73,163,67,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Abnormal,76,92,1.33,19.6,290,Normal,0,4,8,4,1,3,25.2
+492,Hypertension,60,185,92,None,Mixed,8,Very Active,Normal,Normal,Normal,Normal,66,90,0.81,14.5,242,Normal,2,2,6,6,1,1,26.9
+493,Diabetes,67,157,84,Daily,None,9,Active,Abnormal,Normal,Abnormal,Normal,87,90,1.02,50.5,173,Normal,9,0,6,5,0,3,34.1
+494,Diabetes,40,184,107,None,None,7,Active,Normal,Normal,Normal,Normal,97,96,1.03,42.9,251,Normal,6,4,4,11,0,2,31.6
+495,Heart Disease,61,168,82,3-5 times/week,Cardio,6,Very Active,Abnormal,Normal,Normal,Abnormal,72,94,0.91,34.5,289,Normal,6,1,9,5,0,1,29.1
+496,Heart Disease,55,179,63,3-5 times/week,None,8,Very Active,Normal,Normal,Normal,Normal,76,90,1.46,18.0,209,Normal,1,4,7,5,0,1,19.7
+497,Hypertension,40,163,83,3-5 times/week,Strength,4,Active,Abnormal,Normal,Normal,Normal,74,95,1.23,32.0,209,Normal,2,0,6,9,0,0,31.2
+498,Diabetes,62,169,110,None,Mixed,5,Sedentary,Normal,Abnormal,Normal,Normal,95,95,1.09,32.5,370,Abnormal,6,4,1,5,3,2,38.5
+499,None,69,198,53,Daily,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,87,93,1.06,35.9,363,Normal,5,1,2,6,1,3,13.5
+500,None,67,174,108,None,Cardio,5,Active,Normal,Normal,Normal,Normal,74,96,0.74,9.9,249,Normal,6,0,6,11,3,0,35.7
+501,Hypertension,25,189,78,3-5 times/week,Mixed,6,Sedentary,Abnormal,Normal,Normal,Normal,70,96,0.93,54.7,150,Normal,9,2,1,10,1,2,21.8
+502,Heart Disease,18,173,55,None,Cardio,4,Sedentary,Normal,Normal,Normal,Abnormal,90,98,1.21,29.8,192,Normal,8,2,5,10,1,2,18.4
+503,Heart Disease,25,163,98,1-2 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,63,90,1.43,52.4,204,Normal,7,3,1,10,2,1,36.9
+504,None,46,175,89,1-2 times/week,Cardio,8,Sedentary,Abnormal,Normal,Normal,Normal,94,94,1.33,7.5,317,Normal,5,4,3,9,2,1,29.1
+505,Hypertension,22,187,114,1-2 times/week,Mixed,5,Active,Normal,Normal,Normal,Normal,93,99,0.87,19.1,341,Normal,3,1,7,8,1,2,32.6
+506,Diabetes,64,172,118,None,Cardio,4,Active,Abnormal,Normal,Normal,Normal,86,92,0.99,12.1,183,Abnormal,9,4,5,5,3,0,39.9
+507,None,51,171,76,None,Strength,4,Sedentary,Abnormal,Normal,Normal,Normal,69,96,0.67,44.7,183,Normal,8,0,1,10,1,1,26.0
+508,None,82,197,55,1-2 times/week,Mixed,4,Sedentary,Abnormal,Normal,Normal,Normal,89,93,0.69,22.7,325,Normal,6,3,1,5,0,1,14.2
+509,None,72,168,62,3-5 times/week,Cardio,7,Very Active,Abnormal,Abnormal,Abnormal,Normal,79,93,1.02,48.2,310,Normal,4,1,8,11,3,2,22.0
+510,Hypertension,60,195,113,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,88,90,1.08,47.8,345,Normal,1,4,9,11,3,2,29.7
+511,Hypertension,47,152,111,None,Mixed,5,Active,Normal,Normal,Normal,Normal,88,90,0.84,39.7,379,Abnormal,8,1,7,9,1,1,48.0
+512,Heart Disease,34,191,68,1-2 times/week,Cardio,4,Very Active,Abnormal,Normal,Normal,Normal,82,99,1.18,39.6,307,Normal,6,0,3,5,0,0,18.6
+513,None,43,168,92,None,Strength,9,Sedentary,Normal,Normal,Abnormal,Normal,80,91,1.23,41.3,394,Normal,8,3,6,8,1,1,32.6
+514,None,25,158,69,None,Mixed,4,Active,Normal,Normal,Normal,Normal,69,91,0.87,40.0,393,Normal,8,1,3,9,0,2,27.6
+515,Diabetes,64,177,117,3-5 times/week,Strength,8,Very Active,Abnormal,Normal,Normal,Abnormal,71,90,1.28,26.0,259,Normal,9,0,4,9,3,1,37.3
+516,Diabetes,89,169,93,3-5 times/week,Strength,8,Sedentary,Normal,Abnormal,Normal,Normal,89,97,0.79,40.5,233,Normal,4,2,4,4,1,2,32.6
+517,Heart Disease,63,194,72,None,Mixed,5,Active,Abnormal,Abnormal,Normal,Normal,92,95,1.09,51.0,239,Abnormal,6,1,3,9,0,1,19.1
+518,None,85,156,51,None,Mixed,9,Sedentary,Abnormal,Normal,Normal,Abnormal,77,95,1.32,23.3,228,Normal,4,3,6,5,2,2,21.0
+519,None,50,163,71,None,Cardio,4,Sedentary,Abnormal,Normal,Normal,Normal,73,99,1.08,53.3,220,Normal,2,1,5,9,3,2,26.7
+520,Diabetes,18,158,106,3-5 times/week,None,9,Active,Abnormal,Normal,Normal,Abnormal,81,99,1.42,7.7,220,Abnormal,9,1,9,5,3,0,42.5
+521,Hypertension,36,168,56,Daily,Cardio,5,Very Active,Abnormal,Normal,Normal,Normal,80,98,0.65,24.1,263,Normal,7,0,9,5,2,2,19.8
+522,Heart Disease,48,196,105,None,Strength,8,Active,Abnormal,Normal,Normal,Normal,60,94,1.13,13.5,178,Normal,7,4,3,10,0,1,27.3
+523,None,31,163,116,None,Cardio,8,Sedentary,Normal,Normal,Abnormal,Normal,74,93,1.11,13.2,300,Normal,8,4,9,9,3,2,43.7
+524,None,70,187,65,3-5 times/week,Strength,7,Sedentary,Normal,Normal,Normal,Abnormal,95,95,1.19,47.0,311,Normal,5,1,3,4,0,3,18.6
+525,None,65,185,100,Daily,Cardio,5,Active,Abnormal,Normal,Normal,Normal,81,97,1.35,52.0,361,Abnormal,1,3,4,5,2,1,29.2
+526,Heart Disease,86,189,61,1-2 times/week,Strength,5,Sedentary,Abnormal,Normal,Normal,Abnormal,91,90,1.25,45.1,292,Normal,2,3,1,10,1,0,17.1
+527,Heart Disease,79,166,102,None,None,4,Active,Normal,Abnormal,Abnormal,Normal,92,96,1.31,54.9,246,Normal,9,0,5,4,3,1,37.0
+528,Diabetes,83,179,54,None,Strength,4,Active,Normal,Normal,Abnormal,Abnormal,98,97,0.86,17.6,202,Normal,5,1,9,4,3,0,16.9
+529,Diabetes,81,158,76,1-2 times/week,Cardio,7,Active,Normal,Abnormal,Normal,Normal,82,98,0.95,13.9,294,Normal,0,1,2,9,0,3,30.4
+530,None,87,182,61,1-2 times/week,None,6,Active,Normal,Normal,Normal,Normal,61,97,1.16,32.5,213,Normal,1,4,4,7,3,0,18.4
+531,None,80,174,66,None,None,9,Sedentary,Abnormal,Normal,Normal,Abnormal,61,96,1.1,47.6,361,Normal,7,0,2,10,1,2,21.8
+532,None,50,163,55,1-2 times/week,Strength,6,Sedentary,Abnormal,Normal,Abnormal,Abnormal,97,92,1.46,9.0,210,Normal,7,2,8,7,2,3,20.7
+533,None,58,160,54,None,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,88,91,0.77,55.8,334,Normal,5,3,9,5,3,3,21.1
+534,Hypertension,65,184,106,3-5 times/week,None,5,Active,Normal,Abnormal,Normal,Normal,62,92,0.92,36.5,354,Normal,2,3,3,6,2,0,31.3
+535,None,30,190,77,1-2 times/week,Mixed,9,Active,Normal,Normal,Normal,Normal,98,93,1.12,55.0,257,Normal,1,1,9,7,0,1,21.3
+536,None,48,163,118,None,Strength,5,Active,Abnormal,Abnormal,Abnormal,Normal,66,93,1.38,24.9,365,Normal,5,0,6,10,1,0,44.4
+537,None,85,179,108,1-2 times/week,Mixed,9,Active,Normal,Normal,Normal,Normal,95,95,1.44,29.4,395,Normal,0,2,6,9,3,0,33.7
+538,Diabetes,21,190,82,1-2 times/week,Cardio,8,Very Active,Normal,Abnormal,Normal,Normal,88,96,0.9,43.9,388,Normal,9,3,7,10,2,3,22.7
+539,Heart Disease,36,153,111,Daily,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,96,93,0.66,45.8,397,Normal,5,0,5,9,1,2,47.4
+540,Diabetes,87,153,99,1-2 times/week,Mixed,5,Sedentary,Normal,Normal,Normal,Normal,95,99,0.98,18.4,186,Normal,8,2,6,7,2,1,42.3
+541,None,30,177,68,None,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,82,95,0.95,52.6,284,Normal,6,1,1,6,0,0,21.7
+542,Hypertension,40,157,118,3-5 times/week,Strength,7,Active,Normal,Normal,Abnormal,Normal,75,98,1.49,49.5,157,Normal,8,4,3,8,1,2,47.9
+543,Diabetes,18,151,115,None,None,5,Sedentary,Normal,Normal,Abnormal,Normal,90,95,0.99,7.9,364,Normal,1,3,9,5,1,2,50.4
+544,Hypertension,71,190,96,Daily,Cardio,4,Active,Normal,Normal,Normal,Normal,93,92,0.88,13.3,227,Abnormal,4,3,5,10,0,1,26.6
+545,Hypertension,88,195,88,1-2 times/week,None,4,Active,Normal,Abnormal,Normal,Normal,60,90,0.93,31.3,217,Normal,8,2,5,8,0,2,23.1
+546,Heart Disease,32,171,117,1-2 times/week,None,9,Very Active,Abnormal,Normal,Normal,Normal,77,99,0.96,29.6,170,Abnormal,6,4,8,8,3,0,40.0
+547,Diabetes,82,190,82,None,None,8,Very Active,Abnormal,Abnormal,Abnormal,Normal,99,99,1.34,41.7,338,Normal,8,0,2,4,0,3,22.7
+548,Hypertension,88,165,62,1-2 times/week,None,7,Sedentary,Abnormal,Abnormal,Normal,Abnormal,74,94,0.67,11.4,387,Abnormal,5,1,7,4,0,2,22.8
+549,Heart Disease,32,178,103,3-5 times/week,Mixed,9,Sedentary,Abnormal,Normal,Normal,Normal,76,99,0.88,38.6,351,Normal,6,0,9,5,2,3,32.5
+550,None,38,198,56,3-5 times/week,None,4,Active,Normal,Abnormal,Abnormal,Abnormal,69,99,1.47,37.2,363,Normal,9,2,7,6,1,1,14.3
+551,Heart Disease,36,197,63,None,Strength,7,Sedentary,Normal,Normal,Normal,Normal,79,92,0.74,18.4,243,Abnormal,4,3,5,4,2,1,16.2
+552,None,77,179,68,None,Mixed,7,Sedentary,Normal,Abnormal,Normal,Normal,65,97,1.27,33.6,371,Normal,5,3,6,10,0,2,21.2
+553,Hypertension,50,161,103,3-5 times/week,Cardio,8,Active,Abnormal,Normal,Normal,Normal,67,99,0.92,17.9,357,Normal,0,0,4,10,3,3,39.7
+554,Hypertension,66,184,69,Daily,None,7,Sedentary,Abnormal,Normal,Normal,Normal,93,90,1.12,14.2,224,Normal,0,1,7,7,2,0,20.4
+555,None,52,160,78,None,Strength,5,Active,Normal,Normal,Normal,Normal,91,91,0.69,35.1,363,Normal,1,2,1,10,2,3,30.5
+556,Heart Disease,61,195,73,1-2 times/week,Strength,7,Active,Normal,Normal,Normal,Normal,63,92,0.88,54.9,306,Normal,3,1,4,5,1,2,19.2
+557,Diabetes,28,199,112,1-2 times/week,Strength,8,Sedentary,Normal,Normal,Normal,Normal,98,92,1.05,18.6,302,Normal,8,2,3,9,1,3,28.3
+558,Diabetes,89,170,106,3-5 times/week,Strength,9,Sedentary,Abnormal,Normal,Normal,Normal,79,97,0.81,24.4,335,Normal,6,1,4,8,1,3,36.7
+559,None,83,170,57,None,Mixed,8,Sedentary,Normal,Normal,Normal,Normal,83,94,1.09,19.6,291,Normal,5,0,1,10,3,1,19.7
+560,Hypertension,63,154,111,None,Cardio,8,Active,Normal,Abnormal,Normal,Normal,83,97,0.8,20.1,227,Abnormal,0,4,2,5,3,2,46.8
+561,Hypertension,26,197,78,3-5 times/week,Cardio,4,Sedentary,Normal,Normal,Abnormal,Normal,85,95,1.19,26.8,215,Normal,4,2,9,9,0,3,20.1
+562,Diabetes,20,169,66,None,Strength,5,Very Active,Normal,Normal,Normal,Abnormal,84,91,1.41,41.4,331,Normal,3,0,7,9,0,2,23.1
+563,Diabetes,43,186,115,1-2 times/week,None,4,Sedentary,Abnormal,Normal,Normal,Normal,95,93,0.68,8.9,354,Normal,4,3,6,4,1,0,33.2
+564,Diabetes,89,152,55,1-2 times/week,Mixed,9,Sedentary,Normal,Normal,Normal,Normal,66,98,0.79,53.9,344,Abnormal,8,3,2,9,2,2,23.8
+565,Heart Disease,65,193,107,1-2 times/week,None,6,Sedentary,Abnormal,Abnormal,Abnormal,Normal,69,93,1.36,9.3,307,Normal,2,1,1,6,1,0,28.7
+566,Hypertension,83,182,118,1-2 times/week,Cardio,9,Sedentary,Normal,Normal,Normal,Abnormal,71,94,1.17,50.2,295,Abnormal,3,3,2,9,0,2,35.6
+567,Heart Disease,87,158,77,1-2 times/week,Mixed,5,Sedentary,Abnormal,Normal,Normal,Normal,60,94,0.67,50.8,203,Normal,7,4,7,9,2,2,30.8
+568,Heart Disease,45,158,111,None,Cardio,7,Active,Abnormal,Normal,Abnormal,Normal,84,99,1.04,32.7,249,Normal,2,2,2,8,0,3,44.5
+569,None,43,153,90,1-2 times/week,Cardio,8,Active,Normal,Normal,Normal,Normal,75,97,0.79,13.7,170,Normal,2,1,3,6,3,3,38.4
+570,Heart Disease,42,184,118,3-5 times/week,Cardio,6,Sedentary,Normal,Abnormal,Abnormal,Normal,64,95,0.78,34.7,202,Normal,8,2,8,5,1,0,34.9
+571,Heart Disease,29,166,90,3-5 times/week,Mixed,5,Sedentary,Abnormal,Normal,Abnormal,Normal,78,99,1.45,37.8,232,Normal,4,2,7,6,1,0,32.7
+572,None,22,183,98,None,Cardio,4,Active,Normal,Abnormal,Abnormal,Normal,63,96,1.29,49.0,293,Normal,9,0,9,6,2,1,29.3
+573,Heart Disease,65,173,98,None,Mixed,8,Active,Abnormal,Normal,Normal,Abnormal,65,95,1.23,34.0,305,Normal,0,3,4,5,1,3,32.7
+574,Hypertension,54,181,52,None,None,9,Sedentary,Abnormal,Abnormal,Normal,Normal,85,94,0.82,27.1,153,Normal,6,2,7,8,0,0,15.9
+575,None,61,150,59,1-2 times/week,Strength,4,Active,Abnormal,Normal,Abnormal,Normal,98,94,0.71,48.1,392,Normal,6,4,1,10,0,3,26.2
+576,None,32,157,84,1-2 times/week,Mixed,5,Sedentary,Normal,Abnormal,Normal,Normal,98,92,1.38,55.1,204,Normal,5,4,2,11,3,2,34.1
+577,Diabetes,60,194,51,3-5 times/week,None,5,Active,Normal,Abnormal,Normal,Normal,68,96,0.61,38.6,164,Normal,5,3,7,9,0,1,13.6
+578,None,65,172,73,None,Cardio,9,Sedentary,Normal,Abnormal,Normal,Normal,73,99,0.95,49.8,213,Normal,2,3,2,6,2,3,24.7
+579,Heart Disease,87,196,87,None,None,6,Sedentary,Normal,Normal,Normal,Normal,68,94,0.85,36.3,342,Normal,2,1,6,6,0,3,22.6
+580,Diabetes,63,189,71,1-2 times/week,Strength,9,Very Active,Abnormal,Normal,Normal,Normal,74,96,1.11,40.8,261,Abnormal,9,1,9,10,3,3,19.9
+581,Heart Disease,60,161,75,3-5 times/week,Cardio,7,Sedentary,Abnormal,Normal,Normal,Normal,96,91,0.83,40.7,388,Normal,8,1,5,5,3,3,28.9
+582,None,38,161,92,None,Strength,4,Active,Normal,Normal,Normal,Normal,79,98,0.88,41.5,293,Normal,0,3,7,7,1,0,35.5
+583,Heart Disease,40,195,104,3-5 times/week,None,6,Sedentary,Abnormal,Normal,Normal,Normal,67,97,1.37,22.7,267,Normal,6,2,1,10,2,0,27.4
+584,Heart Disease,64,196,88,None,None,8,Active,Normal,Normal,Normal,Normal,91,94,1.14,35.2,169,Normal,9,0,8,6,0,1,22.9
+585,Hypertension,32,164,78,3-5 times/week,None,7,Very Active,Normal,Normal,Normal,Normal,80,91,0.73,36.1,213,Normal,6,1,9,4,3,2,29.0
+586,Diabetes,42,190,69,3-5 times/week,Cardio,6,Sedentary,Abnormal,Normal,Normal,Normal,78,95,1.25,22.4,182,Normal,7,0,5,9,0,2,19.1
+587,Diabetes,53,168,90,None,Cardio,4,Active,Abnormal,Normal,Normal,Normal,88,97,0.79,24.1,230,Normal,5,4,6,9,3,1,31.9
+588,Diabetes,68,175,103,None,Mixed,5,Active,Normal,Normal,Normal,Normal,90,96,0.99,44.4,346,Normal,7,3,8,10,1,2,33.6
+589,Diabetes,32,178,69,1-2 times/week,Strength,8,Active,Abnormal,Normal,Normal,Normal,65,97,1.18,35.6,275,Normal,0,4,4,8,3,0,21.8
+590,Diabetes,85,171,68,None,Cardio,9,Active,Normal,Normal,Normal,Normal,63,93,0.84,14.3,218,Normal,0,1,2,10,1,3,23.3
+591,Diabetes,38,189,115,3-5 times/week,Mixed,4,Very Active,Normal,Normal,Normal,Normal,88,92,0.95,48.0,335,Normal,8,2,8,6,2,2,32.2
+592,Hypertension,30,170,79,3-5 times/week,Strength,7,Sedentary,Normal,Normal,Normal,Abnormal,62,96,1.26,50.3,316,Normal,3,1,2,5,0,3,27.3
+593,Diabetes,36,187,102,3-5 times/week,Mixed,7,Sedentary,Abnormal,Abnormal,Normal,Normal,60,91,1.44,29.8,354,Normal,2,0,5,4,0,3,29.2
+594,Heart Disease,51,169,83,3-5 times/week,Cardio,5,Very Active,Normal,Abnormal,Normal,Normal,74,94,1.08,17.2,385,Normal,5,1,6,10,1,0,29.1
+595,None,85,178,71,1-2 times/week,None,5,Active,Normal,Abnormal,Normal,Normal,80,96,0.61,53.4,313,Abnormal,9,2,5,5,2,3,22.4
+596,Heart Disease,69,153,116,None,None,8,Sedentary,Normal,Abnormal,Abnormal,Normal,90,90,0.9,50.2,243,Normal,8,2,6,10,1,2,49.6
+597,Hypertension,44,156,55,3-5 times/week,Strength,9,Active,Abnormal,Normal,Normal,Abnormal,66,93,0.96,19.0,398,Abnormal,9,3,6,6,3,0,22.6
+598,Diabetes,46,177,76,1-2 times/week,None,8,Active,Normal,Normal,Abnormal,Normal,76,91,0.91,11.7,217,Normal,3,3,3,4,1,1,24.3
+599,Diabetes,45,177,59,3-5 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,78,95,0.99,28.6,236,Normal,8,2,3,8,2,0,18.8
+600,Diabetes,52,153,97,None,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,98,90,1.17,40.1,170,Abnormal,4,2,9,8,3,2,41.4
+601,Diabetes,25,171,119,None,Cardio,7,Active,Normal,Normal,Normal,Abnormal,62,96,0.71,15.6,212,Normal,6,0,3,10,0,0,40.7
+602,Diabetes,33,161,108,Daily,Strength,5,Sedentary,Abnormal,Normal,Normal,Normal,89,92,0.85,32.1,234,Normal,2,1,3,11,0,2,41.7
+603,Diabetes,53,194,108,None,None,6,Active,Normal,Normal,Normal,Abnormal,94,90,1.06,27.8,283,Abnormal,2,3,2,8,0,2,28.7
+604,Diabetes,47,152,51,Daily,Cardio,4,Active,Abnormal,Normal,Normal,Normal,88,97,0.88,50.6,173,Normal,2,0,7,11,2,0,22.1
+605,Diabetes,35,171,78,Daily,Strength,5,Sedentary,Normal,Normal,Normal,Normal,73,96,1.49,28.0,260,Normal,7,1,4,11,2,2,26.7
+606,Heart Disease,19,193,117,3-5 times/week,Mixed,8,Sedentary,Abnormal,Normal,Normal,Normal,94,91,0.99,33.2,330,Abnormal,5,3,1,7,2,1,31.4
+607,Diabetes,66,151,114,3-5 times/week,Strength,9,Sedentary,Normal,Normal,Normal,Abnormal,87,96,1.38,53.8,244,Normal,8,0,6,5,2,2,50.0
+608,Heart Disease,21,173,75,1-2 times/week,Mixed,9,Sedentary,Normal,Normal,Normal,Abnormal,89,92,1.41,21.7,232,Normal,8,4,5,6,2,1,25.1
+609,Heart Disease,24,183,59,3-5 times/week,Strength,9,Active,Normal,Normal,Abnormal,Normal,85,98,1.35,21.2,251,Normal,7,4,2,4,3,1,17.6
+610,Hypertension,56,176,102,None,Cardio,6,Sedentary,Abnormal,Normal,Normal,Normal,66,97,0.64,46.2,353,Normal,0,3,6,10,1,2,32.9
+611,Diabetes,30,190,108,1-2 times/week,None,8,Active,Abnormal,Abnormal,Normal,Normal,98,94,1.45,20.6,227,Normal,5,0,1,10,0,3,29.9
+612,None,48,150,71,3-5 times/week,Strength,6,Sedentary,Normal,Normal,Normal,Normal,90,96,0.72,47.8,327,Normal,3,1,3,9,2,1,31.6
+613,Hypertension,88,157,100,1-2 times/week,Strength,5,Sedentary,Abnormal,Normal,Normal,Normal,64,92,0.63,11.7,273,Normal,3,1,4,9,0,1,40.6
+614,Diabetes,80,172,97,1-2 times/week,Strength,4,Sedentary,Normal,Normal,Normal,Normal,94,90,0.97,12.5,289,Normal,2,0,3,5,2,0,32.8
+615,None,73,187,70,1-2 times/week,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,73,90,0.78,51.2,333,Abnormal,8,4,6,6,0,1,20.0
+616,None,59,155,71,1-2 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,95,91,0.77,33.5,269,Normal,1,0,4,7,1,1,29.6
+617,Diabetes,78,171,79,3-5 times/week,Cardio,9,Sedentary,Normal,Normal,Abnormal,Normal,86,97,0.86,42.2,164,Normal,0,4,1,6,0,1,27.0
+618,Diabetes,59,174,74,None,Cardio,6,Very Active,Abnormal,Normal,Normal,Normal,83,90,0.82,18.0,232,Normal,9,4,5,5,0,1,24.4
+619,None,73,167,77,Daily,None,7,Active,Normal,Abnormal,Abnormal,Abnormal,99,94,1.22,15.1,369,Normal,2,1,5,6,2,3,27.6
+620,Hypertension,53,166,114,3-5 times/week,Mixed,5,Sedentary,Normal,Abnormal,Abnormal,Normal,88,98,0.77,47.9,317,Abnormal,3,3,9,9,3,1,41.4
+621,Diabetes,85,161,94,3-5 times/week,None,4,Sedentary,Normal,Normal,Abnormal,Normal,81,98,1.09,24.6,318,Normal,3,2,8,9,3,2,36.3
+622,Diabetes,24,155,117,1-2 times/week,None,5,Sedentary,Normal,Normal,Normal,Normal,67,91,1.49,29.3,346,Normal,5,0,8,4,0,3,48.7
+623,Heart Disease,71,175,56,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,74,96,0.99,8.4,346,Normal,0,4,5,7,3,1,18.3
+624,Heart Disease,18,176,98,None,Strength,4,Sedentary,Normal,Normal,Normal,Normal,64,90,1.18,25.9,155,Normal,0,0,8,9,1,2,31.6
+625,Hypertension,61,157,58,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,63,92,1.47,44.8,364,Normal,1,3,7,4,1,2,23.5
+626,Heart Disease,62,168,85,None,None,5,Sedentary,Normal,Abnormal,Normal,Normal,70,95,0.72,47.2,216,Normal,3,3,1,7,3,3,30.1
+627,Heart Disease,64,191,50,3-5 times/week,Cardio,6,Sedentary,Normal,Normal,Normal,Abnormal,77,98,0.98,41.2,378,Normal,6,2,7,9,3,3,13.7
+628,Hypertension,30,150,59,Daily,Cardio,5,Sedentary,Normal,Abnormal,Normal,Normal,89,99,1.37,40.9,310,Normal,5,2,8,7,1,2,26.2
+629,Diabetes,39,178,85,None,Mixed,5,Sedentary,Normal,Normal,Normal,Normal,74,91,1.44,31.8,320,Normal,8,4,3,11,3,3,26.8
+630,Diabetes,38,194,95,None,Mixed,5,Active,Normal,Normal,Normal,Abnormal,65,96,1.14,33.4,271,Normal,6,2,9,6,3,3,25.2
+631,Hypertension,26,198,81,3-5 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,75,93,0.73,43.4,298,Abnormal,4,4,8,4,2,0,20.7
+632,None,43,184,81,None,Cardio,7,Sedentary,Normal,Abnormal,Normal,Normal,99,91,1.41,19.1,233,Normal,5,1,2,7,2,3,23.9
+633,Heart Disease,26,189,55,3-5 times/week,Strength,7,Active,Normal,Abnormal,Normal,Abnormal,68,92,0.76,18.3,342,Normal,9,4,6,10,3,0,15.4
+634,Heart Disease,32,163,97,None,None,9,Very Active,Normal,Normal,Normal,Normal,93,95,0.92,53.5,380,Abnormal,8,2,4,7,3,3,36.5
+635,Diabetes,27,184,87,None,Cardio,7,Very Active,Normal,Normal,Normal,Normal,86,99,0.94,8.4,260,Normal,0,0,3,6,2,3,25.7
+636,Heart Disease,59,197,66,Daily,Cardio,9,Active,Normal,Normal,Normal,Abnormal,72,98,1.0,13.8,294,Normal,8,2,6,9,2,2,17.0
+637,Heart Disease,89,194,76,3-5 times/week,Mixed,8,Sedentary,Normal,Abnormal,Normal,Normal,95,97,1.31,34.9,370,Normal,5,3,9,9,3,0,20.2
+638,Diabetes,41,169,103,3-5 times/week,None,6,Active,Abnormal,Abnormal,Normal,Abnormal,86,99,1.32,43.2,285,Abnormal,3,2,2,10,2,3,36.1
+639,Diabetes,66,198,99,1-2 times/week,Cardio,9,Active,Normal,Normal,Normal,Normal,68,98,1.25,33.4,213,Normal,4,1,5,5,1,1,25.3
+640,Heart Disease,43,162,84,3-5 times/week,Strength,5,Sedentary,Normal,Normal,Normal,Normal,64,93,0.62,24.4,275,Normal,0,4,6,5,0,3,32.0
+641,Diabetes,54,187,74,1-2 times/week,Cardio,6,Active,Abnormal,Normal,Normal,Normal,81,93,1.11,54.9,367,Normal,6,3,4,9,1,2,21.2
+642,Heart Disease,85,198,77,3-5 times/week,None,8,Very Active,Normal,Normal,Normal,Abnormal,90,98,1.27,41.5,177,Normal,7,4,7,11,2,2,19.6
+643,Diabetes,67,195,64,3-5 times/week,Mixed,7,Sedentary,Abnormal,Normal,Normal,Normal,62,97,1.0,47.7,247,Normal,4,4,2,10,1,2,16.8
+644,Heart Disease,41,198,53,1-2 times/week,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,89,91,1.45,9.0,367,Normal,1,2,7,8,0,0,13.5
+645,Diabetes,36,157,76,1-2 times/week,Strength,5,Sedentary,Abnormal,Abnormal,Normal,Normal,80,97,1.34,18.6,290,Normal,7,0,2,8,2,0,30.8
+646,None,77,192,75,None,None,4,Sedentary,Normal,Normal,Normal,Normal,94,90,1.17,25.3,385,Normal,9,3,1,10,1,0,20.3
+647,Hypertension,56,169,68,3-5 times/week,Cardio,4,Sedentary,Normal,Abnormal,Normal,Normal,65,98,0.66,15.9,378,Normal,6,1,5,7,1,1,23.8
+648,Hypertension,35,182,66,None,Cardio,6,Active,Abnormal,Normal,Normal,Abnormal,87,98,1.19,10.6,162,Abnormal,9,1,2,9,0,0,19.9
+649,None,36,175,92,3-5 times/week,None,7,Active,Normal,Normal,Normal,Normal,91,97,1.42,18.0,315,Normal,8,0,8,5,2,2,30.0
+650,Heart Disease,53,188,90,None,None,4,Sedentary,Normal,Normal,Normal,Normal,96,94,0.94,33.1,302,Normal,3,0,8,7,3,0,25.5
+651,Diabetes,72,170,91,3-5 times/week,Mixed,6,Very Active,Abnormal,Normal,Normal,Normal,84,94,1.35,41.1,388,Normal,8,2,1,4,2,0,31.5
+652,Heart Disease,86,198,99,3-5 times/week,None,8,Sedentary,Normal,Normal,Normal,Normal,91,92,0.88,44.9,339,Normal,3,1,4,10,0,3,25.3
+653,Hypertension,64,191,89,None,None,6,Sedentary,Normal,Normal,Normal,Normal,94,94,1.11,9.1,300,Normal,2,3,9,10,0,0,24.4
+654,Hypertension,66,192,88,None,Cardio,6,Active,Normal,Normal,Normal,Normal,81,93,1.18,28.0,235,Normal,2,0,5,11,0,3,23.9
+655,Heart Disease,50,190,72,None,Strength,6,Active,Normal,Normal,Normal,Normal,83,90,1.21,13.0,170,Abnormal,9,0,6,5,0,0,19.9
+656,Diabetes,38,158,101,3-5 times/week,None,5,Active,Abnormal,Normal,Normal,Normal,98,98,1.39,28.1,331,Normal,1,0,3,5,3,3,40.5
+657,Diabetes,39,173,96,3-5 times/week,Cardio,6,Very Active,Abnormal,Normal,Normal,Normal,89,99,0.81,28.3,212,Normal,9,3,5,5,2,2,32.1
+658,Heart Disease,65,186,112,None,None,9,Active,Normal,Normal,Normal,Normal,91,93,0.84,31.4,307,Normal,2,1,1,10,2,0,32.4
+659,Hypertension,54,198,118,3-5 times/week,None,6,Very Active,Normal,Normal,Normal,Normal,90,92,1.23,50.7,352,Abnormal,7,3,8,8,1,2,30.1
+660,Hypertension,32,190,92,1-2 times/week,None,5,Sedentary,Normal,Normal,Normal,Abnormal,82,95,0.76,46.4,345,Normal,7,3,6,6,3,0,25.5
+661,Heart Disease,52,166,97,1-2 times/week,Mixed,5,Active,Normal,Normal,Normal,Normal,99,90,1.02,38.2,374,Normal,1,2,2,11,3,1,35.2
+662,None,88,173,83,Daily,None,8,Very Active,Abnormal,Abnormal,Abnormal,Normal,92,94,0.62,50.4,260,Normal,1,0,4,6,1,1,27.7
+663,Hypertension,49,170,89,1-2 times/week,None,7,Active,Normal,Normal,Normal,Normal,84,96,0.73,40.2,225,Normal,1,1,4,11,1,2,30.8
+664,Diabetes,28,188,110,1-2 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,95,91,1.21,47.1,222,Abnormal,9,2,9,10,2,2,31.1
+665,Diabetes,27,190,99,None,Mixed,4,Active,Abnormal,Normal,Normal,Normal,83,99,1.27,34.6,309,Normal,6,2,9,8,2,1,27.4
+666,Diabetes,74,188,116,None,None,6,Active,Abnormal,Normal,Normal,Normal,90,98,0.7,32.7,352,Normal,5,4,5,11,2,1,32.8
+667,Diabetes,42,162,111,None,Cardio,8,Sedentary,Normal,Abnormal,Normal,Normal,98,95,0.8,42.5,378,Normal,0,0,3,9,3,3,42.3
+668,Diabetes,19,160,107,None,None,6,Very Active,Normal,Normal,Abnormal,Normal,72,91,0.69,8.0,301,Normal,1,1,1,9,3,0,41.8
+669,Diabetes,81,195,82,3-5 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,69,97,0.99,40.8,156,Normal,0,1,6,10,1,1,21.6
+670,Diabetes,52,168,65,1-2 times/week,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,82,97,0.71,52.8,221,Normal,6,1,8,10,0,2,23.0
+671,Diabetes,24,160,97,1-2 times/week,Cardio,7,Very Active,Normal,Normal,Normal,Normal,77,90,0.99,42.0,374,Normal,5,0,1,8,0,2,37.9
+672,None,35,162,59,None,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,91,90,1.26,8.8,366,Abnormal,1,1,1,8,0,1,22.5
+673,Diabetes,84,195,87,None,Cardio,5,Sedentary,Normal,Normal,Abnormal,Normal,92,90,1.22,25.5,278,Normal,1,3,7,9,0,2,22.9
+674,Heart Disease,59,194,68,3-5 times/week,None,7,Active,Normal,Normal,Normal,Abnormal,95,93,0.85,46.7,280,Normal,1,3,7,6,0,0,18.1
+675,Heart Disease,56,150,85,Daily,Cardio,8,Active,Normal,Abnormal,Normal,Abnormal,87,93,1.21,54.0,253,Normal,7,0,2,7,2,3,37.8
+676,None,58,189,108,None,None,8,Sedentary,Abnormal,Normal,Normal,Normal,75,97,1.43,25.1,177,Abnormal,6,1,3,8,1,0,30.2
+677,Diabetes,41,193,112,3-5 times/week,Strength,4,Very Active,Abnormal,Normal,Normal,Normal,75,90,0.91,48.2,192,Normal,0,4,2,7,0,3,30.1
+678,Heart Disease,77,168,95,1-2 times/week,Mixed,5,Active,Abnormal,Normal,Normal,Normal,77,99,0.9,49.3,246,Normal,3,4,6,7,0,3,33.7
+679,None,63,161,52,1-2 times/week,Mixed,8,Active,Normal,Normal,Normal,Normal,67,92,1.11,13.0,195,Normal,3,4,8,4,0,1,20.1
+680,None,36,157,114,1-2 times/week,Mixed,9,Active,Abnormal,Normal,Normal,Normal,75,90,0.82,48.4,150,Normal,6,3,8,6,2,2,46.2
+681,None,85,157,57,None,Strength,8,Active,Abnormal,Normal,Normal,Abnormal,70,98,1.19,22.9,315,Normal,1,4,1,11,0,3,23.1
+682,Diabetes,59,194,100,None,Strength,7,Sedentary,Normal,Normal,Normal,Normal,65,99,1.35,36.1,394,Normal,3,1,9,10,1,1,26.6
+683,Diabetes,49,161,55,3-5 times/week,None,4,Sedentary,Normal,Abnormal,Normal,Abnormal,60,98,1.01,33.4,368,Normal,0,1,8,7,2,2,21.2
+684,Hypertension,56,197,88,1-2 times/week,Strength,6,Active,Normal,Abnormal,Normal,Normal,71,96,1.21,39.5,251,Normal,3,4,9,10,2,2,22.7
+685,None,53,182,109,Daily,Cardio,4,Active,Abnormal,Normal,Normal,Normal,97,97,1.19,43.3,184,Normal,0,2,9,10,3,3,32.9
+686,Hypertension,53,194,77,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,87,90,0.63,28.6,351,Normal,1,4,6,6,3,2,20.5
+687,Hypertension,20,175,103,None,Strength,5,Active,Abnormal,Normal,Normal,Abnormal,76,94,0.77,50.5,353,Normal,1,2,3,6,2,0,33.6
+688,Diabetes,25,188,86,3-5 times/week,None,5,Active,Normal,Normal,Normal,Normal,60,91,1.4,46.7,351,Normal,9,0,1,4,0,2,24.3
+689,None,87,177,58,None,Cardio,8,Sedentary,Abnormal,Normal,Normal,Normal,91,90,1.45,45.5,203,Normal,2,0,8,11,0,0,18.5
+690,Diabetes,58,154,105,1-2 times/week,Mixed,9,Sedentary,Normal,Normal,Normal,Abnormal,67,92,1.3,29.5,375,Normal,7,1,3,10,0,2,44.3
+691,Heart Disease,85,157,108,3-5 times/week,None,5,Sedentary,Abnormal,Normal,Normal,Normal,99,96,1.43,8.8,173,Normal,5,3,7,9,0,3,43.8
+692,Heart Disease,30,174,51,Daily,Cardio,8,Active,Normal,Normal,Normal,Normal,83,90,0.88,31.1,305,Normal,5,1,6,11,3,3,16.8
+693,Heart Disease,66,176,110,3-5 times/week,Mixed,4,Sedentary,Abnormal,Normal,Normal,Normal,69,91,0.82,51.0,171,Normal,8,1,3,11,1,1,35.5
+694,Diabetes,77,195,107,3-5 times/week,Strength,5,Sedentary,Normal,Abnormal,Abnormal,Normal,98,91,0.95,16.3,386,Normal,7,3,6,6,2,0,28.1
+695,Diabetes,19,172,109,3-5 times/week,Cardio,4,Active,Normal,Normal,Normal,Normal,98,93,0.65,55.1,165,Normal,1,1,3,7,0,0,36.8
+696,Hypertension,77,179,89,Daily,None,4,Active,Normal,Normal,Normal,Normal,69,92,1.33,46.6,162,Normal,5,3,9,9,3,3,27.8
+697,Diabetes,22,194,85,None,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,95,92,1.49,41.8,249,Normal,0,1,1,9,1,3,22.6
+698,Hypertension,61,196,86,None,Mixed,5,Sedentary,Normal,Normal,Normal,Normal,84,99,1.34,40.2,249,Normal,8,0,8,5,2,3,22.4
+699,Diabetes,44,172,67,None,Cardio,4,Active,Normal,Normal,Normal,Normal,69,94,1.1,35.8,211,Abnormal,3,2,5,7,2,0,22.6
+700,Heart Disease,49,198,112,None,Cardio,9,Very Active,Abnormal,Normal,Normal,Normal,78,92,0.87,42.3,320,Normal,3,1,4,7,2,1,28.6
+701,Heart Disease,38,196,71,3-5 times/week,None,9,Very Active,Normal,Normal,Normal,Abnormal,74,96,0.78,27.7,236,Abnormal,8,2,1,6,0,0,18.5
+702,Diabetes,25,169,60,3-5 times/week,None,5,Active,Normal,Normal,Normal,Abnormal,75,94,0.93,48.4,227,Normal,2,4,9,7,2,3,21.0
+703,Heart Disease,89,167,107,1-2 times/week,Mixed,9,Sedentary,Normal,Normal,Normal,Normal,61,93,1.2,41.1,309,Normal,4,1,9,11,0,1,38.4
+704,Diabetes,67,167,106,None,Cardio,5,Sedentary,Normal,Abnormal,Normal,Normal,88,92,1.0,44.8,216,Normal,0,0,5,10,1,2,38.0
+705,Diabetes,84,151,53,3-5 times/week,Strength,5,Sedentary,Abnormal,Normal,Normal,Normal,63,93,1.44,45.8,240,Normal,5,3,9,5,3,2,23.2
+706,None,61,153,56,1-2 times/week,None,6,Sedentary,Normal,Normal,Normal,Normal,88,91,1.37,11.5,360,Normal,2,0,9,6,3,3,23.9
+707,Heart Disease,75,179,110,3-5 times/week,Strength,4,Active,Abnormal,Normal,Normal,Normal,90,90,0.69,9.7,363,Abnormal,0,2,7,8,3,1,34.3
+708,None,20,182,103,1-2 times/week,Mixed,7,Sedentary,Normal,Normal,Normal,Normal,76,92,0.72,46.2,334,Normal,9,3,8,7,2,3,31.1
+709,Diabetes,87,185,117,1-2 times/week,Cardio,5,Sedentary,Normal,Normal,Abnormal,Normal,69,91,1.21,19.7,342,Normal,5,0,1,7,3,0,34.2
+710,Hypertension,19,167,50,None,None,4,Very Active,Abnormal,Normal,Abnormal,Normal,86,90,0.81,35.5,346,Normal,9,0,4,4,1,0,17.9
+711,None,61,186,104,None,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,74,90,1.31,28.7,326,Abnormal,1,0,4,8,0,1,30.1
+712,Hypertension,19,168,52,3-5 times/week,Strength,8,Sedentary,Normal,Normal,Normal,Normal,90,91,1.13,8.1,182,Abnormal,7,3,9,8,3,3,18.4
+713,Heart Disease,52,196,87,Daily,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,80,98,0.81,9.0,264,Normal,1,0,3,10,0,3,22.6
+714,Heart Disease,47,177,50,3-5 times/week,Mixed,9,Active,Abnormal,Normal,Normal,Normal,85,94,1.03,47.5,168,Normal,3,0,1,5,0,2,16.0
+715,Heart Disease,25,189,87,None,Strength,9,Active,Normal,Normal,Abnormal,Normal,97,98,0.97,36.8,313,Normal,2,2,5,10,3,1,24.4
+716,None,39,169,78,1-2 times/week,Mixed,9,Sedentary,Normal,Normal,Normal,Abnormal,95,97,1.39,32.7,392,Normal,8,0,7,8,3,3,27.3
+717,None,61,198,54,3-5 times/week,Strength,9,Active,Normal,Normal,Normal,Normal,76,95,0.63,53.3,347,Normal,1,0,4,10,3,0,13.8
+718,None,75,182,70,3-5 times/week,None,9,Active,Normal,Normal,Normal,Normal,62,90,1.41,15.5,273,Normal,2,4,9,11,2,3,21.1
+719,Diabetes,53,161,116,None,Cardio,5,Active,Abnormal,Normal,Normal,Normal,73,99,1.19,19.6,292,Normal,6,3,6,10,3,3,44.8
+720,Hypertension,86,164,96,None,None,7,Very Active,Normal,Normal,Normal,Normal,72,94,1.26,44.1,377,Normal,3,4,6,4,2,0,35.7
+721,None,48,190,84,3-5 times/week,Mixed,6,Active,Normal,Normal,Normal,Normal,86,90,0.6,45.0,269,Abnormal,5,2,3,11,1,0,23.3
+722,Diabetes,64,188,117,1-2 times/week,Strength,9,Active,Abnormal,Normal,Normal,Normal,60,96,1.17,26.8,246,Normal,2,4,5,5,0,3,33.1
+723,Diabetes,72,151,118,None,Strength,9,Sedentary,Normal,Normal,Normal,Normal,76,99,1.13,53.6,173,Normal,0,1,6,10,1,0,51.8
+724,Hypertension,79,178,50,None,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,93,97,1.08,53.0,176,Normal,5,3,4,10,3,2,15.8
+725,Hypertension,47,190,117,1-2 times/week,None,5,Sedentary,Normal,Normal,Normal,Normal,73,97,1.31,7.6,326,Normal,3,0,3,8,0,2,32.4
+726,None,72,159,61,3-5 times/week,Strength,4,Active,Normal,Normal,Normal,Normal,76,96,1.1,15.4,224,Normal,1,4,5,5,3,2,24.1
+727,Diabetes,33,151,109,Daily,Cardio,8,Active,Normal,Normal,Normal,Normal,62,91,1.37,47.2,390,Normal,6,4,7,11,3,0,47.8
+728,None,29,160,76,1-2 times/week,None,8,Active,Normal,Normal,Abnormal,Abnormal,93,94,0.81,23.4,172,Normal,9,0,6,8,0,0,29.7
+729,Diabetes,34,162,105,1-2 times/week,Strength,4,Sedentary,Normal,Normal,Normal,Normal,99,93,1.33,11.7,310,Normal,4,0,2,8,1,0,40.0
+730,Diabetes,33,159,72,None,None,5,Active,Normal,Normal,Normal,Normal,84,94,0.76,45.5,190,Normal,5,2,1,10,3,1,28.5
+731,Diabetes,29,163,74,1-2 times/week,Cardio,8,Very Active,Normal,Normal,Normal,Normal,61,99,1.33,29.3,387,Normal,5,4,5,9,0,0,27.9
+732,None,25,167,70,1-2 times/week,Cardio,6,Active,Normal,Normal,Normal,Normal,93,98,1.45,31.1,388,Normal,8,4,5,8,1,2,25.1
+733,Hypertension,20,158,110,3-5 times/week,None,4,Active,Normal,Normal,Normal,Normal,85,93,0.9,16.1,205,Normal,1,1,6,10,2,2,44.1
+734,Heart Disease,33,188,112,1-2 times/week,Mixed,7,Active,Abnormal,Normal,Normal,Normal,90,97,1.08,39.4,306,Normal,5,1,3,7,1,2,31.7
+735,Heart Disease,47,177,101,None,None,5,Very Active,Normal,Normal,Abnormal,Normal,68,97,1.19,34.0,308,Normal,8,4,1,8,1,1,32.2
+736,None,40,152,74,None,None,4,Active,Abnormal,Abnormal,Normal,Normal,89,91,0.67,17.1,342,Normal,3,1,4,7,0,3,32.0
+737,Heart Disease,22,169,104,1-2 times/week,None,8,Active,Normal,Normal,Abnormal,Abnormal,79,95,1.04,23.7,247,Normal,5,4,4,11,1,2,36.4
+738,None,82,155,95,None,Strength,5,Sedentary,Abnormal,Normal,Abnormal,Normal,80,94,0.92,36.2,295,Normal,6,3,2,6,2,1,39.5
+739,Heart Disease,47,176,81,None,Cardio,6,Sedentary,Abnormal,Normal,Abnormal,Normal,88,91,1.39,52.3,359,Normal,0,2,8,9,2,3,26.1
+740,Heart Disease,38,151,104,Daily,Cardio,5,Active,Normal,Normal,Normal,Normal,84,99,1.39,52.1,155,Normal,4,1,6,11,3,1,45.6
+741,Heart Disease,87,178,54,1-2 times/week,None,5,Sedentary,Normal,Normal,Normal,Normal,97,93,1.23,21.1,329,Normal,3,4,3,4,2,1,17.0
+742,Heart Disease,39,187,85,1-2 times/week,None,6,Very Active,Normal,Abnormal,Normal,Normal,84,96,1.19,43.0,189,Abnormal,9,1,1,5,3,3,24.3
+743,Hypertension,89,152,98,3-5 times/week,Cardio,9,Sedentary,Normal,Normal,Normal,Abnormal,68,90,1.26,45.0,342,Normal,1,2,3,5,2,0,42.4
+744,Heart Disease,49,165,107,Daily,Mixed,6,Very Active,Normal,Normal,Normal,Normal,98,98,0.93,46.6,388,Normal,1,3,8,6,1,0,39.3
+745,Diabetes,50,179,88,1-2 times/week,Mixed,5,Sedentary,Abnormal,Normal,Normal,Normal,85,99,0.96,35.0,191,Normal,1,0,4,8,3,2,27.5
+746,None,33,189,110,3-5 times/week,None,6,Sedentary,Normal,Normal,Normal,Abnormal,96,90,1.1,7.5,371,Normal,6,0,3,4,2,3,30.8
+747,Heart Disease,55,151,58,1-2 times/week,Cardio,9,Very Active,Normal,Normal,Abnormal,Normal,75,94,1.44,44.3,345,Normal,3,1,4,6,1,2,25.4
+748,Heart Disease,31,166,55,1-2 times/week,Mixed,4,Sedentary,Normal,Normal,Normal,Normal,96,96,1.25,12.2,181,Normal,5,4,4,6,1,1,20.0
+749,None,53,190,84,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,71,97,1.1,12.7,159,Normal,6,2,2,5,3,0,23.3
+750,Hypertension,40,161,88,3-5 times/week,Mixed,6,Sedentary,Abnormal,Normal,Normal,Normal,83,91,1.29,36.7,384,Normal,8,3,4,7,0,2,33.9
+751,Diabetes,83,184,71,3-5 times/week,None,5,Active,Abnormal,Normal,Normal,Normal,85,93,0.93,55.2,218,Abnormal,1,3,9,11,1,2,21.0
+752,None,19,192,90,1-2 times/week,Mixed,4,Sedentary,Normal,Normal,Normal,Normal,79,91,1.26,18.9,158,Normal,9,3,4,11,1,0,24.4
+753,Hypertension,82,150,54,None,Strength,7,Active,Normal,Normal,Abnormal,Normal,68,93,0.97,38.6,218,Normal,8,0,1,7,0,1,24.0
+754,Heart Disease,84,194,91,3-5 times/week,Mixed,7,Active,Normal,Normal,Normal,Normal,82,95,0.85,21.9,338,Normal,4,2,1,8,3,2,24.2
+755,Diabetes,69,164,116,None,Strength,8,Active,Abnormal,Normal,Normal,Normal,98,95,1.15,51.0,288,Normal,5,0,1,8,2,2,43.1
+756,None,79,175,79,1-2 times/week,Cardio,6,Active,Normal,Normal,Normal,Normal,88,91,1.22,36.1,248,Normal,5,1,5,10,2,3,25.8
+757,Hypertension,40,186,106,3-5 times/week,Mixed,6,Active,Normal,Normal,Normal,Normal,90,93,1.01,17.2,368,Normal,2,3,6,10,1,3,30.6
+758,Heart Disease,43,170,78,3-5 times/week,None,4,Sedentary,Abnormal,Normal,Normal,Normal,78,93,1.11,19.8,345,Normal,9,2,6,11,0,0,27.0
+759,None,85,198,86,3-5 times/week,Cardio,9,Active,Normal,Normal,Normal,Normal,79,90,1.22,28.2,223,Normal,6,3,6,6,1,0,21.9
+760,None,72,180,62,3-5 times/week,Strength,7,Sedentary,Abnormal,Normal,Normal,Normal,82,91,1.29,13.0,252,Normal,6,0,9,8,3,1,19.1
+761,Diabetes,23,174,81,1-2 times/week,Strength,8,Active,Normal,Abnormal,Normal,Normal,86,92,1.41,10.9,374,Normal,7,0,1,7,1,1,26.8
+762,Heart Disease,52,172,95,3-5 times/week,Mixed,4,Sedentary,Abnormal,Normal,Normal,Abnormal,89,94,0.92,40.3,272,Normal,4,0,6,11,2,2,32.1
+763,Diabetes,39,173,72,3-5 times/week,None,6,Very Active,Normal,Normal,Normal,Normal,80,97,1.46,27.0,251,Normal,1,3,8,4,0,3,24.1
+764,Hypertension,60,187,94,None,Strength,7,Sedentary,Normal,Normal,Abnormal,Normal,94,95,1.17,42.6,157,Normal,2,2,8,5,3,1,26.9
+765,Diabetes,32,177,66,None,Strength,8,Sedentary,Normal,Normal,Normal,Abnormal,66,92,1.31,12.4,326,Normal,8,2,3,7,1,2,21.1
+766,Hypertension,77,170,115,None,None,5,Active,Abnormal,Normal,Normal,Normal,81,95,1.23,36.9,301,Normal,5,1,5,10,2,2,39.8
+767,None,29,192,55,1-2 times/week,Cardio,7,Active,Normal,Abnormal,Normal,Normal,69,96,0.79,28.7,380,Normal,7,3,4,9,1,0,14.9
+768,None,66,167,67,3-5 times/week,None,8,Sedentary,Normal,Normal,Abnormal,Normal,82,95,0.66,9.8,310,Abnormal,7,1,1,8,2,3,24.0
+769,Heart Disease,59,185,71,3-5 times/week,Cardio,4,Active,Normal,Abnormal,Abnormal,Normal,74,99,1.25,33.7,382,Normal,4,1,9,5,0,2,20.7
+770,None,55,184,82,None,Mixed,5,Active,Normal,Normal,Normal,Normal,89,95,1.06,11.1,384,Abnormal,0,1,5,9,3,0,24.2
+771,Diabetes,62,194,79,None,Strength,8,Very Active,Normal,Normal,Normal,Normal,93,90,1.23,47.6,168,Normal,5,1,2,11,1,2,21.0
+772,None,52,158,81,Daily,Strength,8,Active,Abnormal,Normal,Normal,Normal,72,92,1.03,38.0,151,Normal,6,0,2,5,3,3,32.4
+773,Diabetes,47,187,91,None,Mixed,6,Sedentary,Normal,Normal,Normal,Normal,63,96,0.88,34.3,204,Normal,8,1,7,6,0,2,26.0
+774,Heart Disease,47,179,59,1-2 times/week,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,77,93,0.86,13.5,288,Normal,1,2,4,11,2,2,18.4
+775,None,23,193,85,1-2 times/week,Mixed,7,Very Active,Normal,Abnormal,Normal,Normal,82,93,1.26,21.1,376,Normal,1,1,1,8,0,1,22.8
+776,Diabetes,84,183,83,1-2 times/week,Cardio,6,Active,Normal,Normal,Normal,Normal,92,96,0.85,31.2,166,Normal,9,0,5,6,0,1,24.8
+777,Diabetes,24,181,77,None,Mixed,5,Sedentary,Normal,Abnormal,Abnormal,Normal,93,98,1.24,38.0,319,Abnormal,0,4,2,11,3,0,23.5
+778,Hypertension,69,152,60,None,None,9,Sedentary,Normal,Normal,Normal,Abnormal,93,91,0.95,16.0,210,Normal,4,4,7,5,0,2,26.0
+779,Hypertension,31,152,88,None,Mixed,8,Active,Normal,Abnormal,Normal,Normal,95,98,1.29,7.4,280,Normal,1,4,9,6,1,0,38.1
+780,Hypertension,32,177,96,1-2 times/week,None,6,Sedentary,Normal,Normal,Normal,Normal,94,92,0.73,23.9,235,Normal,2,3,1,11,2,3,30.6
+781,Hypertension,38,193,68,1-2 times/week,Cardio,9,Sedentary,Abnormal,Normal,Normal,Normal,76,95,0.78,30.7,184,Normal,1,2,2,11,0,0,18.3
+782,Heart Disease,52,164,64,None,Strength,7,Sedentary,Normal,Normal,Normal,Abnormal,87,93,1.22,16.0,362,Normal,3,0,6,8,1,2,23.8
+783,Diabetes,83,190,77,3-5 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Normal,73,90,1.1,31.1,366,Normal,2,4,8,7,2,1,21.3
+784,Heart Disease,19,172,73,3-5 times/week,Strength,4,Sedentary,Abnormal,Normal,Normal,Normal,93,98,0.78,23.6,252,Normal,8,0,7,4,3,1,24.7
+785,Diabetes,52,189,58,None,Cardio,6,Active,Abnormal,Normal,Normal,Abnormal,70,95,1.41,29.3,215,Normal,9,0,9,9,2,0,16.2
+786,None,37,160,96,1-2 times/week,Strength,5,Sedentary,Normal,Normal,Normal,Abnormal,72,97,0.85,24.0,150,Normal,1,3,2,7,3,1,37.5
+787,Hypertension,27,197,82,3-5 times/week,None,4,Sedentary,Normal,Abnormal,Normal,Normal,92,91,0.98,37.8,284,Normal,6,4,9,11,2,2,21.1
+788,Heart Disease,42,181,111,None,None,6,Sedentary,Abnormal,Normal,Normal,Normal,61,96,0.78,9.1,297,Normal,2,1,4,5,0,2,33.9
+789,Heart Disease,83,185,68,1-2 times/week,None,5,Sedentary,Normal,Normal,Normal,Normal,93,95,0.95,15.4,320,Abnormal,9,0,3,11,3,3,19.9
+790,None,42,182,116,3-5 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Abnormal,88,91,1.04,28.2,268,Abnormal,7,4,7,7,3,1,35.0
+791,Diabetes,71,173,89,3-5 times/week,None,9,Sedentary,Normal,Abnormal,Normal,Normal,96,91,0.87,24.5,283,Normal,3,0,5,6,3,1,29.7
+792,Hypertension,50,188,96,3-5 times/week,Cardio,6,Active,Normal,Normal,Normal,Abnormal,63,93,1.29,26.2,204,Normal,3,3,5,8,0,3,27.2
+793,Heart Disease,53,183,114,1-2 times/week,Cardio,5,Sedentary,Normal,Abnormal,Normal,Normal,71,93,0.95,46.4,249,Normal,8,3,2,7,0,0,34.0
+794,Hypertension,31,177,78,3-5 times/week,None,8,Sedentary,Abnormal,Abnormal,Normal,Normal,85,92,1.26,50.4,392,Normal,2,1,6,7,2,3,24.9
+795,Diabetes,82,186,99,1-2 times/week,Cardio,6,Sedentary,Normal,Abnormal,Normal,Normal,87,97,0.79,19.2,170,Normal,6,3,6,8,2,1,28.6
+796,None,71,156,62,3-5 times/week,Mixed,5,Active,Normal,Abnormal,Abnormal,Normal,62,96,0.94,48.0,200,Abnormal,0,4,4,6,0,0,25.5
+797,None,69,153,50,1-2 times/week,None,9,Very Active,Normal,Normal,Normal,Normal,79,91,0.61,29.5,323,Normal,6,3,5,4,0,2,21.4
+798,Hypertension,20,186,83,None,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,69,92,1.28,20.4,312,Normal,9,1,7,7,3,2,24.0
+799,Hypertension,58,150,97,3-5 times/week,Strength,4,Very Active,Abnormal,Normal,Normal,Normal,77,99,1.16,55.3,249,Normal,1,2,8,9,2,3,43.1
+800,None,23,150,97,1-2 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,86,98,1.34,47.4,157,Abnormal,5,0,6,5,2,2,43.1
+801,Hypertension,42,196,98,1-2 times/week,Strength,6,Active,Abnormal,Normal,Normal,Normal,90,94,1.01,55.7,391,Abnormal,8,0,5,10,3,1,25.5
+802,Diabetes,30,169,113,Daily,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,86,91,1.32,15.2,217,Normal,5,4,3,6,3,3,39.6
+803,Hypertension,25,168,110,None,Cardio,5,Active,Normal,Normal,Normal,Normal,60,92,1.18,14.0,256,Normal,2,1,7,11,3,1,39.0
+804,Hypertension,38,178,78,1-2 times/week,None,5,Active,Abnormal,Normal,Normal,Normal,65,97,0.6,31.7,293,Normal,0,1,8,6,1,1,24.6
+805,Heart Disease,85,159,88,None,Strength,4,Sedentary,Normal,Normal,Abnormal,Normal,70,93,0.83,38.3,216,Normal,3,1,3,7,1,0,34.8
+806,Hypertension,42,167,75,3-5 times/week,Strength,9,Active,Normal,Abnormal,Normal,Abnormal,93,91,1.04,15.4,348,Normal,3,0,5,9,0,0,26.9
+807,None,85,177,66,3-5 times/week,None,8,Active,Abnormal,Normal,Normal,Normal,98,91,1.16,49.2,341,Normal,7,3,2,10,2,0,21.1
+808,None,62,184,62,1-2 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,79,95,0.66,33.1,151,Normal,9,0,4,11,3,2,18.3
+809,Heart Disease,77,192,118,3-5 times/week,Mixed,4,Sedentary,Abnormal,Normal,Abnormal,Normal,80,97,1.23,27.1,150,Normal,9,0,4,8,3,0,32.0
+810,Diabetes,29,196,75,1-2 times/week,Cardio,8,Sedentary,Abnormal,Normal,Normal,Normal,80,96,1.09,36.5,335,Normal,6,0,8,10,2,1,19.5
+811,None,49,180,98,3-5 times/week,Cardio,6,Active,Normal,Abnormal,Normal,Normal,77,93,1.07,38.1,150,Normal,9,3,3,7,1,3,30.2
+812,None,30,176,116,1-2 times/week,Mixed,5,Active,Normal,Normal,Abnormal,Abnormal,80,91,0.86,9.1,251,Normal,6,2,5,7,2,3,37.4
+813,Diabetes,48,160,56,1-2 times/week,Strength,6,Sedentary,Normal,Normal,Normal,Abnormal,78,98,1.14,56.0,264,Normal,6,4,5,8,0,1,21.9
+814,None,37,198,107,Daily,Cardio,9,Active,Normal,Normal,Normal,Normal,63,93,0.62,24.8,284,Normal,1,2,2,5,1,2,27.3
+815,None,35,198,98,None,Strength,7,Very Active,Abnormal,Normal,Normal,Normal,72,98,0.66,10.0,237,Normal,8,2,9,8,2,3,25.0
+816,Heart Disease,77,187,102,None,Mixed,7,Active,Abnormal,Normal,Normal,Normal,77,94,1.26,48.8,346,Abnormal,5,0,4,7,2,1,29.2
+817,Hypertension,80,154,114,1-2 times/week,Cardio,7,Active,Normal,Normal,Abnormal,Normal,88,96,0.89,55.7,362,Normal,1,2,9,4,0,1,48.1
+818,Heart Disease,23,157,111,Daily,Cardio,8,Active,Normal,Normal,Normal,Normal,84,94,0.91,47.0,241,Normal,0,0,9,8,2,1,45.0
+819,Diabetes,49,183,66,1-2 times/week,Cardio,4,Sedentary,Normal,Abnormal,Abnormal,Normal,72,91,0.79,48.7,167,Normal,0,0,2,11,1,3,19.7
+820,Heart Disease,60,197,92,None,Mixed,6,Sedentary,Normal,Normal,Abnormal,Normal,86,95,1.0,37.7,237,Normal,0,4,9,5,3,3,23.7
+821,None,19,161,74,1-2 times/week,Strength,5,Active,Abnormal,Normal,Normal,Abnormal,78,96,0.65,52.2,399,Normal,3,1,9,8,3,0,28.5
+822,Diabetes,77,187,52,1-2 times/week,None,7,Sedentary,Normal,Normal,Normal,Normal,60,95,0.87,8.8,309,Normal,3,0,2,8,3,0,14.9
+823,Heart Disease,40,150,78,None,Mixed,6,Very Active,Abnormal,Normal,Normal,Normal,97,92,1.07,44.6,322,Normal,8,2,6,6,1,1,34.7
+824,Heart Disease,48,180,81,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,78,99,1.02,39.9,182,Abnormal,0,4,9,6,2,1,25.0
+825,Heart Disease,22,153,75,Daily,None,7,Sedentary,Abnormal,Normal,Normal,Abnormal,60,97,1.5,9.4,351,Normal,2,2,4,7,2,1,32.0
+826,None,51,198,65,1-2 times/week,Cardio,5,Very Active,Normal,Abnormal,Normal,Normal,99,92,0.95,33.7,222,Normal,2,1,2,11,2,1,16.6
+827,Heart Disease,27,194,74,1-2 times/week,Cardio,9,Active,Normal,Normal,Normal,Normal,76,94,0.95,32.2,326,Normal,7,3,7,7,2,3,19.7
+828,Heart Disease,19,199,103,1-2 times/week,Mixed,9,Sedentary,Normal,Abnormal,Normal,Normal,80,98,1.05,40.9,310,Normal,1,1,9,10,3,0,26.0
+829,Hypertension,28,154,77,None,None,9,Active,Abnormal,Normal,Normal,Normal,81,94,0.77,10.8,374,Normal,5,4,6,11,1,2,32.5
+830,Heart Disease,67,179,105,3-5 times/week,Mixed,8,Active,Normal,Abnormal,Abnormal,Normal,74,96,1.39,46.5,348,Normal,3,1,4,8,0,1,32.8
+831,Diabetes,48,173,114,1-2 times/week,Cardio,4,Active,Normal,Normal,Normal,Normal,98,96,1.12,13.8,345,Normal,9,1,1,4,1,0,38.1
+832,Heart Disease,73,152,90,1-2 times/week,None,8,Sedentary,Normal,Normal,Abnormal,Normal,98,94,0.77,27.5,177,Normal,5,4,4,9,2,1,39.0
+833,Diabetes,26,160,100,3-5 times/week,Mixed,6,Active,Normal,Normal,Normal,Normal,91,91,1.31,50.2,236,Normal,4,4,3,7,2,3,39.1
+834,Diabetes,38,194,78,1-2 times/week,Cardio,8,Very Active,Normal,Abnormal,Normal,Abnormal,63,94,0.63,34.5,202,Normal,8,2,7,8,1,2,20.7
+835,Heart Disease,45,153,68,3-5 times/week,None,6,Sedentary,Abnormal,Abnormal,Normal,Normal,91,96,1.48,25.6,373,Abnormal,8,0,5,8,1,0,29.0
+836,Heart Disease,79,175,115,None,Cardio,6,Very Active,Normal,Normal,Normal,Normal,63,96,1.38,9.4,193,Normal,0,3,3,9,3,0,37.6
+837,None,24,176,90,3-5 times/week,Mixed,4,Very Active,Normal,Normal,Normal,Normal,60,93,1.12,39.9,229,Normal,2,3,2,8,2,2,29.1
+838,Heart Disease,33,195,94,Daily,Cardio,5,Active,Normal,Normal,Normal,Normal,92,90,0.7,55.3,387,Normal,0,3,2,9,1,3,24.7
+839,Hypertension,21,192,64,3-5 times/week,None,4,Active,Normal,Normal,Normal,Normal,66,95,0.79,51.7,332,Abnormal,5,1,5,9,2,2,17.4
+840,Hypertension,21,176,52,Daily,None,9,Sedentary,Normal,Normal,Normal,Abnormal,68,92,0.85,42.1,287,Normal,2,4,8,10,1,0,16.8
+841,Diabetes,57,191,60,None,None,9,Sedentary,Normal,Abnormal,Normal,Abnormal,60,94,0.82,12.2,163,Abnormal,0,4,8,8,2,2,16.4
+842,Hypertension,34,199,102,1-2 times/week,Strength,8,Active,Normal,Normal,Normal,Normal,75,93,1.05,18.7,252,Abnormal,5,4,5,10,1,3,25.8
+843,Diabetes,69,155,95,3-5 times/week,Cardio,6,Very Active,Normal,Normal,Normal,Normal,77,91,1.45,16.2,185,Normal,4,0,2,8,2,3,39.5
+844,None,69,164,79,1-2 times/week,None,7,Active,Abnormal,Normal,Normal,Normal,65,96,1.0,24.4,183,Normal,7,4,4,6,0,1,29.4
+845,Diabetes,53,179,106,1-2 times/week,None,7,Active,Normal,Normal,Abnormal,Normal,61,94,1.2,18.5,237,Normal,1,4,7,9,3,2,33.1
+846,Heart Disease,55,191,67,1-2 times/week,Cardio,6,Sedentary,Abnormal,Normal,Abnormal,Normal,68,96,1.22,19.0,295,Normal,7,1,6,5,0,2,18.4
+847,Diabetes,67,186,100,None,Mixed,4,Sedentary,Normal,Normal,Abnormal,Normal,63,98,1.38,37.2,165,Normal,4,2,7,9,3,0,28.9
+848,None,80,186,97,1-2 times/week,Cardio,5,Sedentary,Normal,Normal,Normal,Abnormal,82,93,0.63,22.6,382,Normal,7,3,5,5,3,3,28.0
+849,Heart Disease,80,191,115,None,Mixed,4,Sedentary,Normal,Normal,Normal,Normal,67,94,0.96,40.2,314,Normal,9,1,2,8,1,2,31.5
+850,Hypertension,79,186,57,3-5 times/week,Cardio,6,Active,Normal,Normal,Normal,Normal,98,98,1.31,53.4,190,Normal,3,1,8,7,0,0,16.5
+851,Diabetes,24,184,71,None,None,6,Sedentary,Abnormal,Normal,Normal,Abnormal,84,99,1.33,38.3,174,Abnormal,3,1,2,4,3,1,21.0
+852,Hypertension,44,172,55,None,Mixed,5,Active,Abnormal,Normal,Normal,Normal,75,93,1.43,43.8,275,Normal,9,3,8,10,2,2,18.6
+853,Diabetes,31,155,106,1-2 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,94,94,1.23,43.8,157,Normal,3,1,7,8,1,2,44.1
+854,None,88,153,85,1-2 times/week,Strength,8,Active,Normal,Abnormal,Normal,Normal,76,94,0.82,23.2,365,Normal,5,2,3,4,1,0,36.3
+855,Diabetes,22,167,106,3-5 times/week,Mixed,5,Active,Normal,Normal,Normal,Normal,77,97,1.06,7.7,361,Normal,3,4,4,6,2,0,38.0
+856,Diabetes,72,158,98,1-2 times/week,None,8,Sedentary,Normal,Normal,Normal,Abnormal,86,93,0.63,9.7,261,Normal,8,2,7,5,2,3,39.3
+857,Diabetes,19,198,94,1-2 times/week,None,7,Sedentary,Normal,Abnormal,Normal,Abnormal,74,93,1.18,20.8,243,Normal,8,4,4,10,3,3,24.0
+858,Heart Disease,79,178,115,3-5 times/week,Strength,8,Sedentary,Abnormal,Normal,Normal,Abnormal,76,96,1.1,40.8,233,Normal,2,4,9,6,2,3,36.3
+859,Hypertension,38,162,94,1-2 times/week,None,8,Very Active,Abnormal,Normal,Normal,Abnormal,64,94,1.2,51.4,295,Normal,6,1,7,7,1,2,35.8
+860,Diabetes,38,196,69,None,None,8,Sedentary,Abnormal,Abnormal,Normal,Normal,75,95,1.44,54.0,217,Normal,4,1,1,7,2,0,18.0
+861,None,27,166,113,1-2 times/week,None,7,Active,Abnormal,Abnormal,Abnormal,Abnormal,74,95,1.22,8.3,325,Normal,8,3,1,9,0,3,41.0
+862,Heart Disease,75,194,116,Daily,None,8,Very Active,Normal,Normal,Normal,Abnormal,93,95,0.89,55.5,377,Normal,1,0,4,10,1,2,30.8
+863,Heart Disease,56,181,52,1-2 times/week,Strength,9,Active,Normal,Normal,Normal,Normal,78,99,0.78,22.8,347,Normal,2,2,9,10,2,3,15.9
+864,Heart Disease,22,197,103,None,None,7,Sedentary,Normal,Normal,Abnormal,Normal,67,94,1.37,48.3,216,Normal,9,3,4,10,1,1,26.5
+865,Heart Disease,82,171,113,None,Cardio,5,Very Active,Normal,Normal,Normal,Normal,69,94,0.77,15.8,295,Normal,4,3,5,8,3,2,38.6
+866,Hypertension,30,153,89,None,Strength,4,Sedentary,Normal,Normal,Normal,Normal,64,98,0.75,10.1,260,Normal,4,2,1,11,0,3,38.0
+867,Diabetes,70,154,108,1-2 times/week,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,85,97,0.79,25.5,381,Normal,9,2,2,11,3,3,45.5
+868,Diabetes,62,186,104,1-2 times/week,None,4,Very Active,Abnormal,Abnormal,Normal,Abnormal,81,93,1.06,49.1,167,Normal,6,4,4,9,0,1,30.1
+869,None,49,190,111,None,Strength,5,Active,Abnormal,Normal,Normal,Abnormal,82,96,0.71,17.8,205,Normal,7,0,4,7,2,1,30.7
+870,None,53,198,53,Daily,None,9,Sedentary,Abnormal,Normal,Normal,Normal,72,97,1.44,14.5,300,Normal,7,1,6,7,1,3,13.5
+871,Heart Disease,77,162,109,3-5 times/week,Strength,4,Sedentary,Abnormal,Normal,Normal,Normal,68,98,1.47,51.6,184,Normal,0,0,6,9,2,3,41.5
+872,Diabetes,28,183,79,1-2 times/week,Mixed,4,Sedentary,Normal,Normal,Normal,Abnormal,79,94,1.48,53.0,283,Abnormal,0,0,8,6,3,0,23.6
+873,Hypertension,80,194,51,3-5 times/week,Cardio,6,Active,Abnormal,Normal,Abnormal,Normal,87,92,0.64,7.6,267,Normal,2,1,9,4,1,3,13.6
+874,Heart Disease,38,171,111,None,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,96,93,1.45,42.6,175,Normal,0,0,1,5,2,3,38.0
+875,Diabetes,69,172,98,1-2 times/week,Cardio,4,Very Active,Normal,Normal,Normal,Normal,83,99,1.5,22.2,362,Abnormal,0,3,1,7,2,0,33.1
+876,Diabetes,72,152,58,3-5 times/week,Cardio,6,Very Active,Abnormal,Normal,Abnormal,Abnormal,92,95,1.45,25.4,210,Normal,9,3,6,9,1,0,25.1
+877,Hypertension,43,191,80,3-5 times/week,Mixed,8,Very Active,Abnormal,Abnormal,Normal,Abnormal,79,99,1.2,30.0,237,Normal,7,1,4,7,1,3,21.9
+878,Hypertension,85,183,110,3-5 times/week,Mixed,8,Sedentary,Normal,Normal,Normal,Normal,89,94,1.23,27.9,164,Abnormal,0,1,4,6,3,0,32.8
+879,Diabetes,51,181,97,None,Cardio,6,Active,Normal,Abnormal,Normal,Normal,68,98,0.71,32.2,240,Normal,8,2,1,10,0,2,29.6
+880,Diabetes,69,194,74,Daily,Strength,7,Very Active,Normal,Normal,Normal,Abnormal,76,92,1.39,35.5,181,Normal,1,2,9,10,0,1,19.7
+881,Diabetes,69,198,85,None,Mixed,4,Very Active,Normal,Normal,Normal,Normal,95,91,0.65,29.8,289,Normal,8,0,3,11,1,2,21.7
+882,Hypertension,46,170,57,3-5 times/week,Mixed,4,Sedentary,Abnormal,Normal,Normal,Normal,73,95,0.89,41.4,282,Normal,6,0,5,5,0,1,19.7
+883,Diabetes,55,195,107,Daily,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,78,96,1.49,42.2,213,Normal,8,1,1,11,3,1,28.1
+884,Diabetes,59,193,94,None,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,66,94,0.98,28.6,348,Normal,2,0,8,10,0,3,25.2
+885,None,38,170,111,3-5 times/week,None,7,Active,Normal,Normal,Normal,Normal,62,90,0.72,14.0,235,Normal,0,4,3,10,1,1,38.4
+886,Diabetes,59,193,88,None,Mixed,9,Active,Normal,Normal,Abnormal,Normal,92,92,1.47,38.4,304,Normal,0,3,1,6,3,2,23.6
+887,Hypertension,30,160,107,1-2 times/week,None,8,Active,Normal,Normal,Normal,Abnormal,91,92,1.49,44.9,356,Normal,9,0,6,11,1,3,41.8
+888,Diabetes,81,188,113,1-2 times/week,Cardio,5,Sedentary,Abnormal,Normal,Normal,Normal,70,93,0.77,38.3,380,Normal,5,0,1,4,3,0,32.0
+889,Diabetes,34,153,93,1-2 times/week,None,9,Sedentary,Normal,Normal,Normal,Abnormal,61,99,1.38,35.8,194,Normal,6,2,3,6,3,2,39.7
+890,Diabetes,26,150,78,Daily,None,8,Sedentary,Normal,Normal,Normal,Abnormal,85,95,0.95,18.2,398,Normal,8,4,5,5,1,3,34.7
+891,Hypertension,58,177,108,3-5 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,63,94,0.94,38.6,184,Abnormal,5,0,4,10,2,1,34.5
+892,None,18,173,58,1-2 times/week,Mixed,9,Sedentary,Normal,Normal,Normal,Normal,76,90,0.84,23.4,175,Normal,4,3,7,11,1,2,19.4
+893,None,19,184,55,3-5 times/week,None,6,Active,Abnormal,Normal,Normal,Normal,76,95,0.64,52.1,172,Normal,1,0,6,5,3,1,16.2
+894,Heart Disease,77,162,78,Daily,Cardio,7,Active,Normal,Normal,Normal,Normal,87,98,0.84,39.0,290,Abnormal,1,1,3,7,1,3,29.7
+895,Hypertension,65,196,107,None,None,8,Active,Abnormal,Normal,Normal,Normal,89,90,0.65,20.6,367,Normal,7,4,8,4,1,3,27.9
+896,Diabetes,46,183,66,Daily,None,7,Sedentary,Normal,Normal,Normal,Normal,99,97,1.43,30.2,280,Normal,0,0,8,8,3,0,19.7
+897,Diabetes,27,160,65,None,Cardio,8,Sedentary,Normal,Normal,Abnormal,Normal,82,97,1.2,48.5,178,Normal,7,4,2,7,0,0,25.4
+898,None,75,185,52,3-5 times/week,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,83,92,1.4,23.4,343,Normal,9,0,7,10,3,2,15.2
+899,Diabetes,77,166,70,None,None,4,Very Active,Normal,Normal,Normal,Abnormal,88,98,1.25,32.7,213,Abnormal,6,3,1,9,1,0,25.4
+900,Diabetes,38,184,113,None,Cardio,5,Sedentary,Abnormal,Abnormal,Normal,Normal,63,97,0.72,40.3,305,Normal,6,3,2,6,3,1,33.4
+901,Diabetes,45,167,85,1-2 times/week,None,7,Active,Normal,Normal,Normal,Normal,97,92,1.45,44.0,364,Normal,4,4,8,11,3,1,30.5
+902,Diabetes,51,189,111,3-5 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,88,99,1.41,15.5,313,Normal,2,2,1,11,0,0,31.1
+903,Diabetes,25,171,91,1-2 times/week,Mixed,5,Very Active,Normal,Normal,Normal,Abnormal,78,94,0.91,34.7,262,Normal,6,2,2,6,2,0,31.1
+904,Hypertension,76,173,91,None,Mixed,7,Active,Normal,Normal,Normal,Normal,86,92,0.7,51.7,283,Abnormal,6,1,1,5,1,0,30.4
+905,Heart Disease,89,168,110,1-2 times/week,Cardio,7,Sedentary,Abnormal,Normal,Abnormal,Normal,88,94,1.23,54.4,288,Normal,6,2,5,9,1,2,39.0
+906,None,66,186,62,Daily,Cardio,8,Active,Normal,Normal,Normal,Normal,95,98,1.26,39.2,315,Normal,1,4,7,5,0,2,17.9
+907,None,34,188,60,1-2 times/week,Mixed,8,Sedentary,Normal,Normal,Abnormal,Normal,94,93,1.41,55.2,267,Normal,2,2,6,9,3,1,17.0
+908,Heart Disease,77,170,103,None,None,5,Very Active,Abnormal,Normal,Normal,Abnormal,65,95,0.65,35.0,311,Abnormal,2,1,6,5,2,2,35.6
+909,Diabetes,62,157,65,1-2 times/week,Mixed,4,Sedentary,Normal,Abnormal,Normal,Normal,82,92,0.73,28.7,358,Normal,3,0,6,8,1,2,26.4
+910,Heart Disease,86,177,57,None,Mixed,9,Sedentary,Normal,Normal,Normal,Normal,98,92,1.14,34.0,216,Normal,8,2,8,8,2,3,18.2
+911,Hypertension,49,154,108,3-5 times/week,None,9,Active,Normal,Normal,Normal,Normal,67,94,1.16,12.7,257,Normal,9,4,5,7,2,1,45.5
+912,Diabetes,61,166,106,3-5 times/week,None,7,Active,Abnormal,Normal,Normal,Abnormal,61,97,0.63,26.7,323,Normal,0,4,7,8,3,1,38.5
+913,Hypertension,82,186,89,1-2 times/week,Mixed,4,Sedentary,Abnormal,Normal,Normal,Normal,72,97,0.96,29.5,375,Normal,6,1,3,9,3,0,25.7
+914,Heart Disease,25,185,108,1-2 times/week,Cardio,5,Active,Normal,Normal,Normal,Abnormal,99,92,1.13,48.6,235,Normal,6,1,9,5,3,3,31.6
+915,Hypertension,89,168,51,3-5 times/week,None,5,Sedentary,Normal,Normal,Normal,Normal,80,97,1.26,44.2,178,Abnormal,3,3,3,9,1,0,18.1
+916,Heart Disease,60,176,59,1-2 times/week,None,8,Sedentary,Abnormal,Normal,Abnormal,Normal,90,97,0.88,36.5,209,Normal,0,3,6,7,2,2,19.0
+917,Diabetes,18,183,93,3-5 times/week,Cardio,7,Active,Normal,Abnormal,Normal,Normal,95,92,1.04,24.0,203,Normal,2,3,3,7,2,1,27.8
+918,None,68,160,60,3-5 times/week,Strength,6,Sedentary,Normal,Normal,Abnormal,Normal,97,99,1.33,16.2,242,Normal,4,0,1,10,1,2,23.4
+919,None,41,194,51,3-5 times/week,Strength,5,Sedentary,Normal,Normal,Normal,Normal,86,99,1.46,24.0,218,Normal,1,4,1,4,0,2,13.6
+920,Diabetes,41,196,99,1-2 times/week,Mixed,7,Active,Abnormal,Normal,Abnormal,Abnormal,95,91,0.81,40.3,351,Abnormal,6,3,3,8,3,3,25.8
+921,None,34,161,61,1-2 times/week,None,4,Sedentary,Normal,Normal,Normal,Normal,82,99,0.83,19.9,351,Normal,9,4,4,6,1,3,23.5
+922,Heart Disease,22,170,72,Daily,Cardio,8,Active,Normal,Normal,Normal,Abnormal,80,91,1.45,27.9,266,Normal,9,1,2,6,3,1,24.9
+923,None,37,160,67,1-2 times/week,Cardio,9,Sedentary,Normal,Normal,Normal,Normal,72,98,0.96,26.0,158,Normal,6,0,9,4,2,1,26.2
+924,None,38,188,111,3-5 times/week,Cardio,4,Sedentary,Normal,Abnormal,Normal,Normal,96,96,1.25,44.5,275,Abnormal,9,1,8,5,1,3,31.4
+925,Heart Disease,75,177,111,None,None,5,Sedentary,Abnormal,Normal,Normal,Abnormal,85,95,1.15,50.3,362,Abnormal,4,4,3,4,0,3,35.4
+926,Diabetes,48,154,87,3-5 times/week,Mixed,5,Active,Normal,Normal,Normal,Normal,99,96,0.86,41.3,226,Normal,9,3,7,5,3,3,36.7
+927,Diabetes,28,166,116,1-2 times/week,Mixed,4,Active,Normal,Abnormal,Normal,Normal,66,97,1.19,23.7,159,Normal,5,1,4,11,2,3,42.1
+928,Heart Disease,69,169,87,None,Cardio,5,Sedentary,Normal,Normal,Normal,Abnormal,98,90,1.19,28.2,251,Normal,0,2,5,8,2,1,30.5
+929,Hypertension,32,190,116,None,Strength,7,Sedentary,Normal,Normal,Normal,Normal,81,97,1.13,14.0,352,Normal,3,0,4,8,0,1,32.1
+930,Diabetes,24,195,110,3-5 times/week,None,5,Very Active,Abnormal,Normal,Normal,Normal,98,92,0.69,15.2,345,Normal,3,4,9,7,0,2,28.9
+931,Diabetes,45,161,50,3-5 times/week,Cardio,8,Sedentary,Normal,Normal,Normal,Abnormal,82,92,1.5,15.1,207,Abnormal,7,3,7,7,3,2,19.3
+932,None,68,155,94,1-2 times/week,Strength,7,Very Active,Abnormal,Normal,Abnormal,Normal,89,95,0.96,13.4,387,Normal,1,1,4,7,2,2,39.1
+933,None,75,166,77,None,Cardio,6,Sedentary,Normal,Normal,Normal,Abnormal,77,93,1.17,15.8,372,Abnormal,0,0,8,11,0,1,27.9
+934,Heart Disease,22,168,70,3-5 times/week,Mixed,5,Active,Normal,Normal,Normal,Normal,77,93,1.4,16.9,262,Normal,6,3,2,7,1,0,24.8
+935,Diabetes,22,175,62,None,Strength,5,Sedentary,Normal,Normal,Abnormal,Normal,69,93,0.98,12.5,329,Normal,5,1,7,6,0,2,20.2
+936,Diabetes,25,197,76,1-2 times/week,Cardio,8,Very Active,Normal,Normal,Normal,Normal,98,99,1.3,38.4,311,Normal,4,4,1,10,1,0,19.6
+937,Diabetes,81,193,56,None,Strength,8,Active,Normal,Normal,Normal,Normal,89,98,1.47,55.5,255,Normal,7,2,8,7,2,0,15.0
+938,None,27,193,71,None,None,9,Sedentary,Abnormal,Abnormal,Normal,Normal,85,97,0.92,50.1,184,Normal,1,2,6,11,3,0,19.1
+939,Diabetes,55,181,102,None,Cardio,4,Sedentary,Normal,Normal,Normal,Abnormal,66,92,0.96,9.2,252,Normal,1,4,5,7,2,3,31.1
+940,Hypertension,25,155,53,1-2 times/week,Cardio,4,Active,Normal,Abnormal,Normal,Normal,66,90,1.42,27.7,252,Normal,8,0,9,7,2,1,22.1
+941,Diabetes,42,185,72,None,Cardio,4,Active,Abnormal,Normal,Normal,Normal,64,90,0.74,49.1,310,Normal,0,4,9,5,2,1,21.0
+942,Hypertension,83,187,119,1-2 times/week,Strength,8,Sedentary,Abnormal,Normal,Normal,Normal,60,90,0.63,13.6,349,Normal,5,1,3,9,2,2,34.0
+943,Hypertension,67,160,82,1-2 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,77,93,1.42,48.5,309,Normal,2,0,9,7,3,2,32.0
+944,None,84,182,77,1-2 times/week,Strength,4,Active,Normal,Normal,Normal,Normal,72,95,1.34,36.0,332,Normal,4,2,9,11,0,1,23.2
+945,Diabetes,66,173,57,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Abnormal,Normal,84,93,1.48,52.6,246,Normal,7,1,2,4,3,3,19.0
+946,Diabetes,53,172,50,3-5 times/week,Cardio,4,Active,Abnormal,Normal,Normal,Normal,99,92,0.65,49.9,285,Normal,6,3,5,7,3,1,16.9
+947,Diabetes,85,164,86,None,Mixed,5,Sedentary,Abnormal,Normal,Abnormal,Normal,67,97,0.74,40.2,323,Normal,3,3,2,7,3,0,32.0
+948,None,58,176,112,1-2 times/week,None,9,Very Active,Abnormal,Normal,Abnormal,Normal,69,97,0.69,39.2,291,Normal,7,3,1,6,3,1,36.2
+949,None,79,160,71,None,None,8,Very Active,Abnormal,Normal,Normal,Normal,91,95,1.22,17.4,375,Normal,9,2,7,9,0,3,27.7
+950,Hypertension,27,199,119,None,Cardio,7,Very Active,Normal,Normal,Normal,Normal,76,98,1.15,12.7,285,Normal,1,4,4,7,2,1,30.0
+951,Hypertension,38,166,70,1-2 times/week,None,9,Sedentary,Abnormal,Normal,Normal,Normal,97,99,0.92,27.4,392,Normal,6,0,5,9,0,1,25.4
+952,Hypertension,53,163,84,1-2 times/week,None,6,Very Active,Normal,Normal,Abnormal,Normal,74,90,0.65,16.1,255,Normal,4,2,4,5,0,1,31.6
+953,Diabetes,29,176,54,3-5 times/week,Strength,8,Sedentary,Normal,Abnormal,Normal,Abnormal,74,97,1.18,12.0,220,Normal,5,1,6,8,2,0,17.4
+954,None,19,167,109,1-2 times/week,Cardio,8,Active,Normal,Normal,Abnormal,Abnormal,99,95,1.11,21.8,226,Normal,2,1,2,9,0,2,39.1
+955,Heart Disease,30,177,95,Daily,Cardio,5,Active,Abnormal,Normal,Normal,Normal,79,90,0.7,49.2,203,Normal,9,3,8,9,3,3,30.3
+956,Heart Disease,70,196,99,None,Mixed,9,Sedentary,Abnormal,Normal,Normal,Normal,74,93,1.42,7.8,170,Normal,6,0,4,7,3,0,25.8
+957,Heart Disease,49,196,97,None,Cardio,9,Very Active,Normal,Normal,Normal,Abnormal,94,94,0.78,21.3,260,Normal,6,3,8,10,2,1,25.2
+958,Diabetes,33,153,55,None,Mixed,4,Sedentary,Abnormal,Normal,Normal,Normal,65,96,1.27,27.8,373,Abnormal,1,1,3,7,2,1,23.5
+959,Diabetes,49,156,105,None,None,5,Active,Abnormal,Normal,Normal,Normal,89,97,1.4,32.0,224,Normal,0,1,5,7,2,2,43.1
+960,Hypertension,49,194,108,1-2 times/week,Cardio,4,Active,Normal,Normal,Normal,Normal,67,98,1.12,15.9,399,Normal,9,4,3,6,3,2,28.7
+961,Diabetes,28,184,78,3-5 times/week,Mixed,4,Active,Normal,Normal,Normal,Normal,90,95,0.82,54.2,163,Abnormal,1,4,7,10,2,2,23.0
+962,Hypertension,27,197,67,None,Cardio,8,Sedentary,Abnormal,Abnormal,Normal,Normal,91,99,0.88,35.4,352,Normal,7,4,3,8,0,0,17.3
+963,Diabetes,32,158,51,Daily,Strength,9,Sedentary,Normal,Abnormal,Abnormal,Normal,74,98,1.4,32.6,151,Normal,9,3,8,6,0,3,20.4
+964,Heart Disease,34,157,57,3-5 times/week,Cardio,4,Active,Normal,Normal,Abnormal,Normal,77,93,0.87,7.4,375,Abnormal,2,0,9,11,1,2,23.1
+965,Diabetes,57,194,103,None,None,6,Sedentary,Abnormal,Normal,Normal,Normal,72,97,1.27,30.8,338,Normal,3,4,2,6,1,1,27.4
+966,Heart Disease,35,166,87,None,Cardio,6,Sedentary,Abnormal,Abnormal,Normal,Abnormal,83,92,1.49,48.0,257,Normal,7,2,3,6,2,3,31.6
+967,Hypertension,72,166,97,None,Cardio,9,Sedentary,Normal,Abnormal,Normal,Normal,99,93,1.5,17.8,388,Normal,2,4,7,10,1,1,35.2
+968,Diabetes,42,198,76,None,Mixed,6,Sedentary,Abnormal,Normal,Normal,Normal,73,99,1.08,24.2,294,Normal,5,3,5,5,3,1,19.4
+969,Hypertension,76,182,69,None,None,8,Very Active,Normal,Normal,Normal,Normal,87,93,1.34,8.0,227,Normal,1,0,7,8,3,3,20.8
+970,Heart Disease,39,181,61,1-2 times/week,Mixed,5,Sedentary,Normal,Abnormal,Normal,Normal,70,95,1.49,54.9,366,Normal,2,4,2,5,0,0,18.6
+971,Hypertension,47,157,92,None,Mixed,7,Active,Normal,Normal,Normal,Normal,65,98,0.94,10.3,197,Normal,0,0,4,5,0,3,37.3
+972,None,61,168,110,1-2 times/week,None,4,Sedentary,Normal,Normal,Abnormal,Normal,84,95,0.83,51.0,240,Normal,8,2,1,8,1,2,39.0
+973,Hypertension,49,187,80,Daily,Cardio,7,Sedentary,Abnormal,Normal,Normal,Normal,60,90,0.7,22.3,285,Normal,3,1,5,5,1,3,22.9
+974,Diabetes,68,152,110,3-5 times/week,Mixed,5,Sedentary,Normal,Abnormal,Normal,Normal,84,94,0.73,35.8,333,Abnormal,5,0,8,10,3,2,47.6
+975,Diabetes,63,154,116,Daily,Mixed,5,Sedentary,Normal,Abnormal,Normal,Normal,61,98,1.37,40.3,166,Normal,6,4,1,8,0,2,48.9
+976,Diabetes,38,162,84,None,Cardio,8,Sedentary,Normal,Normal,Normal,Normal,91,94,1.13,13.9,346,Normal,1,3,7,9,1,3,32.0
+977,Hypertension,49,196,64,1-2 times/week,Cardio,6,Active,Abnormal,Normal,Normal,Normal,72,95,1.39,28.7,161,Normal,7,3,7,11,3,3,16.7
+978,Diabetes,56,195,65,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Normal,Normal,92,92,1.31,22.9,315,Normal,8,3,7,9,0,2,17.1
+979,Heart Disease,29,180,62,None,Strength,5,Sedentary,Normal,Abnormal,Normal,Normal,91,97,1.21,9.8,295,Normal,9,3,1,7,3,1,19.1
+980,Hypertension,64,165,84,None,None,8,Sedentary,Normal,Normal,Abnormal,Normal,83,99,1.15,47.8,175,Normal,1,0,3,6,3,3,30.9
+981,Heart Disease,35,199,108,3-5 times/week,Strength,8,Sedentary,Abnormal,Abnormal,Normal,Normal,86,93,0.64,9.2,372,Abnormal,4,3,2,11,0,0,27.3
+982,None,38,181,70,3-5 times/week,None,9,Very Active,Normal,Normal,Abnormal,Normal,63,93,1.39,39.0,186,Normal,1,1,5,9,3,2,21.4
+983,Diabetes,30,171,103,1-2 times/week,None,4,Active,Normal,Abnormal,Normal,Normal,83,94,0.98,22.4,219,Normal,4,2,2,9,1,1,35.2
+984,Diabetes,38,178,79,1-2 times/week,Cardio,6,Sedentary,Normal,Normal,Abnormal,Normal,82,99,1.1,16.4,318,Normal,6,0,5,5,3,3,24.9
+985,Hypertension,25,171,97,1-2 times/week,Cardio,5,Sedentary,Abnormal,Normal,Normal,Abnormal,88,98,0.62,39.7,228,Normal,5,0,5,8,1,3,33.2
+986,Heart Disease,63,192,84,None,Cardio,9,Very Active,Normal,Normal,Normal,Abnormal,93,97,1.44,35.2,319,Normal,3,3,4,4,2,1,22.8
+987,Hypertension,24,152,87,1-2 times/week,Cardio,7,Sedentary,Normal,Normal,Normal,Normal,80,96,1.41,22.4,390,Normal,1,3,7,5,2,0,37.7
+988,Heart Disease,40,159,80,None,Cardio,6,Active,Normal,Abnormal,Normal,Normal,89,94,1.09,32.1,239,Abnormal,6,0,6,5,2,2,31.6
+989,Diabetes,39,191,73,None,None,4,Sedentary,Normal,Normal,Normal,Normal,85,98,1.12,19.1,392,Normal,9,3,2,10,3,3,20.0
+990,None,39,170,98,Daily,Cardio,8,Very Active,Abnormal,Normal,Normal,Normal,79,98,1.23,49.3,353,Normal,8,3,4,8,2,0,33.9
+991,None,46,165,81,1-2 times/week,Mixed,5,Very Active,Normal,Normal,Normal,Normal,75,99,0.84,22.4,190,Abnormal,0,3,7,4,2,2,29.8
+992,Hypertension,30,161,104,3-5 times/week,Cardio,6,Active,Abnormal,Abnormal,Normal,Normal,62,99,0.8,19.0,324,Normal,2,3,9,4,3,0,40.1
+993,Diabetes,19,151,107,1-2 times/week,Cardio,7,Sedentary,Abnormal,Normal,Abnormal,Normal,96,91,1.21,43.8,291,Normal,6,3,9,7,0,2,46.9
+994,Hypertension,46,190,52,1-2 times/week,Cardio,4,Sedentary,Normal,Normal,Normal,Normal,99,93,0.69,7.9,278,Abnormal,8,4,3,5,3,2,14.4
+995,Heart Disease,69,173,118,None,Mixed,4,Sedentary,Abnormal,Normal,Normal,Normal,84,97,1.01,20.1,166,Normal,4,4,1,10,1,0,39.4
+996,Diabetes,44,184,59,None,None,9,Sedentary,Abnormal,Normal,Normal,Normal,82,90,1.04,25.4,374,Normal,6,4,9,6,3,2,17.4
+997,None,67,179,74,None,Strength,6,Sedentary,Abnormal,Normal,Normal,Normal,60,94,0.94,50.2,332,Normal,9,0,8,9,0,3,23.1
+998,Diabetes,40,179,117,3-5 times/week,Strength,7,Sedentary,Normal,Normal,Normal,Normal,92,97,0.77,53.6,370,Normal,6,2,7,5,2,3,36.5
+999,None,61,196,110,3-5 times/week,Strength,4,Active,Normal,Normal,Normal,Normal,74,91,0.92,42.1,202,Normal,3,0,6,6,3,0,28.6
+1000,Heart Disease,39,184,78,1-2 times/week,None,5,Active,Normal,Abnormal,Normal,Normal,76,91,0.9,31.1,267,Normal,4,4,7,11,2,0,23.0
