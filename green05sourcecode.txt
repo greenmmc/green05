@@ -1,0 +1,160 @@
+#https://xx7jzs-x-yg.shinyapps.io/case1/
+
+
+# Load packages ----------------------------------------------------------------
+library(shiny)
+library(ggplot2)
+library(tools)
+library(shinythemes)
+library(dplyr) # Add this line to load dplyr
+
+# Load data --------------------------------------------------------------------
+mdata <- read.csv(file = "https://raw.githubusercontent.com/greenmmc/green05/main/2023patient-1.csv", header = TRUE, sep = ",")
+
+# Define UI --------------------------------------------------------------------
+ui <- fluidPage(
+  shinythemes::themeSelector(),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "y",
+        label = "Y-axis:",
+        choices = c(
+          "Age" = "Age",
+          "BMI" = "BMI",
+          "Height_cm" = "Height_cm",
+          "Weight_kg" = "Weight_kg",
+          "Heart_Rate_bpm" = "Heart_Rate_bpm"
+        ),
+        selected = "Heart_Rate_bpm"
+      ),
+      
+      selectInput(
+        inputId = "x",
+        label = "X-axis:",
+        choices = c(
+          "Age" = "Age",
+          "BMI" = "BMI",
+          "Height_cm" = "Height_cm",
+          "Weight_kg" = "Weight_kg",
+          "Heart_Rate_bpm" = "Heart_Rate_bpm"
+        ),
+        selected = "Age"
+      ),
+      
+      selectInput(
+        inputId = "z",
+        label = "Color by:",
+        choices = c(
+          "Critical_Illness_Type" = "Critical_Illness_Type",
+          "Urine_Test_Result" = "Urine_Test_Result",
+          "Exercise_Frequency" = "Exercise_Frequency",
+          "Occupation" = "Occupation",
+          "Blood_Test_Result" = "Blood_Test_Result"
+        ),
+        selected = "Blood_Test_Result"
+      ),
+      
+      sliderInput(
+        inputId = "alpha",
+        label = "Alpha:",
+        min = 0, max = 1,
+        value = 0.5
+      ),
+      
+      sliderInput(
+        inputId = "size",
+        label = "Size:",
+        min = 0, max = 5,
+        value = 2
+      ),
+      
+      textInput(
+        inputId = "plot_title",
+        label = "Plot title",
+        value = "Table 1",
+        placeholder = "Enter text to be used as plot title"
+      ),
+      
+      actionButton(
+        inputId = "update_plot_title",
+        label = "Update new plot title"
+      )
+    ),
+    
+    mainPanel(
+      tags$br(),
+      tags$p(
+        
+        "These data were obtained from",
+        tags$a("Kaggle", href = "https://www.kaggle.com/"),  "."
+        
+        
+        
+        # "These data were obtained from",
+        #tags$a("Kaggle", href = "https://www.kaggle.com/"),  "."
+        
+        
+      ),
+      tags$p("The data represent", nrow(mdata), "randomly sampled clients."),
+      
+      plotOutput(outputId = "scatterplot", hover = "plot_hover"),
+      dataTableOutput(outputId = "mdatatable"),
+      br(),
+      
+      textOutput(outputId = "avg_x"), # avg of x
+      textOutput(outputId = "avg_y"), # avg of y
+      br(),
+      
+      verbatimTextOutput(outputId = "lmoutput") # regression output
+    )
+  )
+)
+
+# Define server ----------------------------------------------------------------
+server <- function(input, output, session) {
+  
+  # Reactive expression for plot title
+  new_plot_title <- reactiveVal("Table 1")
+  
+  # Update plot title when the button is clicked
+  observeEvent(input$update_plot_title, {
+    new_plot_title(toTitleCase(input$plot_title))
+  })
+  
+  # Scatterplot output
+  output$scatterplot <- renderPlot({
+    ggplot(data = mdata, aes_string(x = input$x, y = input$y, color = input$z)) +
+      geom_point(alpha = input$alpha, size = input$size) +
+      labs(title = new_plot_title())
+  })
+  
+  # Data table output for hovered points
+  output$mdatatable <- renderDataTable({
+    nearPoints(mdata, input$plot_hover) %>%
+      select(Critical_Illness_Type, Exercise_Frequency, Occupation, Blood_Test_Result, Urine_Test_Result, Ultrasound_Result, Heart_Rate_bpm) %>%
+      as.data.frame()
+  })
+  
+  # Average X value
+  output$avg_x <- renderText({
+    paste("Average", input$x, ":", round(mean(mdata[[input$x]], na.rm = TRUE), 2))
+  })
+  
+  # Average Y value
+  output$avg_y <- renderText({
+    paste("Average", input$y, ":", round(mean(mdata[[input$y]], na.rm = TRUE), 2))
+  })
+  
+  # Linear model output
+  output$lmoutput <- renderPrint({
+    lm_model <- lm(as.formula(paste(input$y, "~", input$x)), data = mdata)
+    summary(lm_model)
+  })
+}
+
+# Create the Shiny app object --------------------------------------------------
+shinyApp(ui = ui, server = server)
+
+
+
